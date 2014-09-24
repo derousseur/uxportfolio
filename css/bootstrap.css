@@ -1104,13 +1104,13 @@ p {
 }
 .lead {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 21px;
+    font-size: 15px;
   }
 }
 small,
@@ -3870,7 +3870,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-top {
   top: 0;
-  border-width: 0 0 1px;
+  border-width: 0 0 0px;
+  box-shadow: 0px 3px 3px #888888;
 }
 .navbar-fixed-bottom {
   bottom: 0;

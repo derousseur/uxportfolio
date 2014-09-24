@@ -28,33 +28,33 @@
     <!--    JQUERY        =============================================== -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-	<script>
-	$(function() {
-	  $('a[href*=#]:not([href=#])').click(function() {
-	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+  <script>
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 
-	      var target = $(this.hash);
-	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	      if (target.length) {
-	        $('html,body').animate({
-	          scrollTop: target.offset().top
-	        }, 1000);
-	        return false;
-	      }
-	    }
-	  });
-	});
-	</script>
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
 
 </head>
 
 <body>
 
-
+<div class=wrapper>
 
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top header" role="navigation">
         <div class="container header">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -64,7 +64,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Keynobi</a>
+                <a class="navbar-brand logo" href="#">Keynobi</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -73,13 +73,13 @@
                         <a href="#toprow">Subscribe</a>
                     </li>
                     <li>
-                        <a href="#what">What</a>
+                        <a href="#what">About</a>
                     </li>
                     <li>
-                        <a href="#why">Why</a>
+                        <a href="#why">Why use it?</a>
                     </li>
                     <li>
-                        <a href="#how">How</a>
+                        <a href="#how">How it works</a>
                     </li>
                 </ul>
             </div>
@@ -91,11 +91,16 @@
     <!-- Page Content -->
     <div class="container">
 
-        <div class="row video" id="toprow">
+        <div class="row" id="toprow">
+            <div class="col-lg-12 backvideo">
+                <video loop="loop" preload="auto" class="videointro" autoplay>
+                  <source src="//www.youtube.com/embed/Fsl2Chqa9XY" type="video/mp4">
+                </video>
+            </div>
             <div class="col-lg-12 text-center">
-                <h1>Keynobi</h1>
+                <h1 class="logo">Keynobi</h1>
                 <p class="lead">The world's most secure password manager</p>
-                <button>Subscribe</button>
+                <button type="submit" class="btn subscribe">Subscribe</button>
             </div>
         </div>
         <!-- /.row 1-->
@@ -112,30 +117,34 @@
         <div class="row sections" id="why">
             <div class="col-lg-4 text-center">
                 <h1>Save Time</h1>
-                <p class="lead">You No Longer Need To Waste 30 hours a year filling in log in information.</p>
+                <p class="lead longtext">You No Longer Need To Waste 30 hours a year filling in log in information.</p>
             </div>
             <div class="col-lg-4 text-center">
                 <h1>Save Stress</h1>
-                <p class="lead">You never need to remember all your different usernames and passwords, or press the 'reset password' button.</p>
+                <p class="lead longtext">You never need to remember all your different usernames and passwords, or press the 'reset password' button.</p>
             </div>
             <div class="col-lg-4 text-center">
                 <h1>Stay Safe</h1>
-                <p class="lead">73% of people use the same password for multiple sites and it takes just 3 minutes to crack the average password. But Keynobi protects all your private information using the worlds most advanced bio-metric security technology. There is nothing safer.</p>
+                <p class="lead longtext">73% of people use the same password for multiple sites and it takes just 3 minutes to crack the average password. But Keynobi protects all your private information using the worlds most advanced bio-metric security technology. There is nothing safer.</p>
             </div>
         </div>
         <!-- /.row 3-->
 
         <div class="row sections" id="how">
+            <h1>How it works</h1>
             <div class="col-lg-4 text-center">
                 <h1>1</h1>
+                <img src="http://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/02/gaia_calibration_image/14263603-2-eng-GB/Gaia_calibration_image.jpg" class="img-responsive howtoimg center-block" alt="Responsive image">
                 <p class="lead">Download + Set Master Password</p>
             </div>
             <div class="col-lg-4 text-center">
                 <h1>2</h1>
+                <img src="http://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/02/gaia_calibration_image/14263603-2-eng-GB/Gaia_calibration_image.jpg" class="img-responsive howtoimg center-block" alt="Responsive image">
                 <p class="lead">Browse as normal</p>
             </div>
             <div class="col-lg-4 text-center">
                 <h1>3</h1>
+                <img src="http://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/02/gaia_calibration_image/14263603-2-eng-GB/Gaia_calibration_image.jpg" class="img-responsive howtoimg center-block" alt="Responsive image">
                 <p class="lead">Click + Look + You're in</p>
             </div>
         </div>
@@ -143,12 +152,15 @@
 
     </div>
     <!-- /.container -->
+  </div>
+    <!-- /.wrapper -->
 
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
 
 </body>
 
