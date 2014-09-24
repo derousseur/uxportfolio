@@ -1,8 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Crete+Round);
-<<<<<<< HEAD
 @import url(http://fonts.googleapis.com/css?family=Lato:300);
-=======
->>>>>>> FETCH_HEAD
 
 body {
     padding-top: 70px;
@@ -30,10 +27,6 @@ body {
   background: #871010;
   color: white;
   width: 200px;
-}
-
-.logo{
-  font-family: 'Crete Round', cursive;
 }
 
 #toprow {
