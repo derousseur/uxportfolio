@@ -1,6 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Arbutus+Slab|Oldenburg|Kreon|Crete+Round|Expletus+Sans|Cherry+Swash);
+
 body {
     padding-top: 70px;
     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.logo{
+    font-famiy: 'Oldenburg';  
 }
 
 #toprow {
