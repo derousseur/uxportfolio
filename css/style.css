@@ -77,3 +77,10 @@ body {
   border-width: 1px;
   border-color: #871010;
 }
+
+@media (max-width: 768px) {
+  .howtoimg{
+    max-height: 150px;
+  }
+
+  }
