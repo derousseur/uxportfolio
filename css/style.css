@@ -34,30 +34,15 @@ body {
   width: 200px;
   box-shadow: 0px 3px 3px #888888;
 }
+.register hover{
+  background: white;
+}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> FETCH_HEAD
 
 .titles{
   clear:both;
   padding-bottom: 40px;
   color: #871010;
-<<<<<<< HEAD
-=======
-#toprow {
-  height: 400px;
->>>>>>> FETCH_HEAD
-=======
->>>>>>> FETCH_HEAD
-}
-
-.sections{
-  padding: 50px 25px;
-  border-bottom-style: solid;
-  border-width: 1px;
-  border-color: #871010;
 }
 
 .longtext{
@@ -83,4 +68,12 @@ body {
 
 .backvideo{
   position: absolute;
+}
+
+
+.sections{
+  padding: 50px 25px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #871010;
 }
