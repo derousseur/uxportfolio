@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Oldenburg);
+@import url(http://fonts.googleapis.com/css?family=Crete+Round);
 
 body {
     padding-top: 70px;
@@ -6,7 +6,7 @@ body {
 }
 
 .logo{
-  font-family: 'Oldenburg', cursive;
+  font-family: 'Crete Round', cursive;
 }
 
 #toprow {
