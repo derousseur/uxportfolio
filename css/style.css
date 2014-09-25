@@ -78,6 +78,11 @@ body {
   border-color: #871010;
 }
 
+.topsection{
+  padding: 50px 25px;
+  border-bottom-style: none;
+}
+
 @media (max-width: 768px) {
   .howtoimg{
     max-height: 150px;
