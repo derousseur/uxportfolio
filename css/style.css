@@ -12,7 +12,7 @@ body {
 .wrapper{
 }
 
-a .hover{
+a:hover{
   color: #9C27B0;
 }
 
