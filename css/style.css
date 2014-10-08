@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Montez);
 @import url(http://fonts.googleapis.com/css?family=Lato:300);
+@import url(http://fonts.googleapis.com/css?family=Overlock+SC|Nixie+One|Voces|Overlock|Lato|Sorts+Mill+Goudy|Montez|Ovo|Josefin+Slab|Libre+Baskerville|EB+Garamond|Megrim|Expletus+Sans|Buda:300|Raleway+Dots|Forum|Open+Sans);
 
 body {
     padding-top: 25px;
@@ -17,13 +18,13 @@ body {
 }
 
 .logo{
-    font-family: 'Montez', cursive;
+    font-family: 'Overlock SC', cursive;
     color: #9C27B0;
     font-size:75px;
 }
 
 .logomini{
-    font-family: 'Montez', cursive;
+    font-family: 'Overlock SC', cursive;
     color: #9C27B0;
 }
 
