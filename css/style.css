@@ -12,6 +12,10 @@ body {
 .wrapper{
 }
 
+a .hover{
+  color: #9C27B0;
+}
+
 .header{
   background: url("header-01.svg");
   border-bottom-style: none;
