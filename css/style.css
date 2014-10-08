@@ -12,12 +12,12 @@ body {
 .wrapper{
 }
 
-a:hover{
+li a:hover{
   color: #9C27B0;
 }
 
 .header{
-  background: url("header-01.svg");
+  background: url("header.png");
   border-bottom-style: none;
   box-shadow: 0px 2px 7px #888888;
 }
