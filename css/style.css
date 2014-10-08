@@ -1,6 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Montez);
 @import url(http://fonts.googleapis.com/css?family=Lato:300);
+<<<<<<< HEAD
+@import url(http://fonts.googleapis.com/css?family=Overlock+SC|Nixie+One|Voces|Overlock|Lato|Sorts+Mill+Goudy|Montez|Ovo|Josefin+Slab|Libre+Baskerville|EB+Garamond|Megrim|Expletus+Sans|Buda:300|Raleway+Dots|Forum|Open+Sans);
+=======
 @import url(http://fonts.googleapis.com/css?family=Megrim);
+>>>>>>> bck img
 
 body {
     padding-top: 25px;
