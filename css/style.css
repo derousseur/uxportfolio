@@ -17,7 +17,9 @@ li a:hover{
 }
 
 .header{
-  background: url("img/header.png");
+  background: url(http://derousseur.github.io/img/header.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   border-bottom-style: none;
   box-shadow: 0px 2px 7px #888888;
 }
