@@ -90,7 +90,9 @@ button .buttonlink hover{
 .howtoimg{
   max-height: 200px;
 }
-
+.icons{
+  max-height: 75px;
+}
 
 
 .sections{
