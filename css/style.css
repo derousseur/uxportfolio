@@ -99,8 +99,8 @@ button .buttonlink hover{
 }
 
 .sections{
-  padding: 50px 25px;
-  border-bottom-style: solid;
+  padding: 50px 50px;
+  border-top-style: solid;
   border-width: 1px;
   border-color: #9016b2;
 }
