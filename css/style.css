@@ -129,7 +129,7 @@ button .buttonlink hover{
 @media (max-width: 760px) {
   .howtoimg{
     max-height: 200px;
-    padding-left: 0px;
+    padding-left: -30px;
   }
 .padcol{
   padding: 15px;
