@@ -132,10 +132,11 @@ button .buttonlink hover{
   }
 .padcol{
   padding: 15px;
+  border-color: #9016b2;
   border-top: 1px;
 }
 .padtxt{
-  padding-left: 0px;
+  padding: 0px;
 }
 
   }
