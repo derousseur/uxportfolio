@@ -125,6 +125,11 @@ button .buttonlink hover{
 .padtxt{
   padding-left: 30px;
 }
+.colbor{
+  border-color: #9016b2;
+  border-top: 1px;
+  border-radious: 1px;
+}
 
 @media (max-width: 760px) {
   .howtoimg{
