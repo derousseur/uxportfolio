@@ -137,7 +137,8 @@ button .buttonlink hover{
     padding-left: -30px;
   }
 .padcol{
-  padding: 15px;
+  padding: 0
+  px;
   border-color: #9016b2;
   border-top: 1px;
 }
