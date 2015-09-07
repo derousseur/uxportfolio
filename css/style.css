@@ -16,12 +16,23 @@ body {
 .wrapper{
 }
 
-li a:hover{
-  color: #9016b2;
+a{
+	color: inherit;
+}
+.textshadow {
+	text-shadow: 0px 0px 15px #50E3C2;
+}
+.boxshadow {
+	box-shadow: 0px 0px 15px #50E3C2;
+}
+a:hover{
+  text-shadow:0px 0px 0px transparent;
+  box-shadow:0px 0px 0px transparent;
 }
 
-a:hover{
+li a:hover{
   color: #9016b2;
+
 }
 
 .header{
@@ -48,12 +59,15 @@ a:hover{
 .buttonlink{
   margin: 10px;
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  border-color: #9016b2;
-  background: #9016b2;
-  color: white;
-  width: 200px;
-  box-shadow: 0px 3px 3px #888888;
+  font-weight: 700;
+  padding: 25px;
+  border-color: #50E3C2;
+  border-width: 5px;
+  border-style: solid;
+  background: transparent;
+  color: #9016b2;
+  width: 394px;
+  box-shadow: 0px 0px 20px #50E3C2;
 }
 button .buttonlink hover{
   background: white;
@@ -70,7 +84,7 @@ button .buttonlink hover{
 .titles{
   font-family: 'Megrim', cursive;
   clear:both;
-  padding-bottom: 40px;
+  padding-bottom: 36px;
   color: #9016b2;
 }
 
@@ -84,9 +98,16 @@ button .buttonlink hover{
 }
 
 .smalltext{
-  font=size:12px;
+  font-size:14px;
+  line-height: 12px;
+  font-weight: 400;
 }
-
+.extrasmalltext{
+  font-size:12px;
+  line-height: 12px;
+  font-weight: 400;
+  padding-top: 5px;
+}
 .howtoimg{
   max-width: 300px;
   max-height: 200px;
@@ -96,7 +117,7 @@ button .buttonlink hover{
 }
 
 .rowy{
-  padding-left:50px;
+  padding-left:0px;
 }
 
 .sections{
@@ -107,8 +128,10 @@ button .buttonlink hover{
 }
 
 .topsection{
-  padding: 50px 25px;
-  border-bottom-style: none;
+  padding: 50px 32px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #9016b2;
 }
 
 .input{
@@ -123,12 +146,35 @@ button .buttonlink hover{
   padding: 30px;
 }
 .padtxt{
-  padding-left: 30px;
+  padding-left: 0px;
 }
-.colbor{
-  border-color: #9016b2;
-  border: 1px;
-  border-style: solid;
+
+.gradientborder{
+ 
+
+	  border: 5px solid transparent;
+	  
+
+	  -moz-border-image: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	  -webkit-border-image: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	  border-image: linear-gradient(to right, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+
+	  border-image-slice: 1; 
+}
+.smallcircle{
+	-webkit-border-radius: 25px;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+}
+project1{
+	background-image: url("file:///Users/Dianas/Desktop/MyBrand/uxportfolio/img/anza-home-.png");
+}
+projecttitle{
+	color:white;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: right;
 }
 
 @media (max-width: 760px) {
