@@ -151,25 +151,45 @@ button .buttonlink hover{
 
 .gradientborder{
  
-
+	  margin: 0 auto;
 	  border: 5px solid transparent;
 	  
 
 	  -moz-border-image: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 	  -webkit-border-image: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	  border-image: linear-gradient(to right, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	  border-image: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 
 	  border-image-slice: 1; 
-	  -webkit-border-radius: 25px;
-	width: 50px;
-	height: 50px;
-	margin: 0 auto;
+	  
+	
 }
-.smallcircle{
-	-webkit-border-radius: 25px;
-	width: 50px;
-	height: 50px;
-	margin: 0 auto;
+.smallcircle {
+	background-color: #eee;
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	top:50%;
+	left:50%;
+	margin-left:-11px; /*half width*/
+	margin-top:-11px;
+	position:relative;
+
+.smallcircle:before{
+	content:'';
+	position:absolute;
+	z-index:-1;
+	border-radius: 50%;
+	width: 58px;
+	height: 58px;
+	left:-3px;
+	top:-3px;
+	
+	background: -moz-linear-gradient(-45deg, #00ff00 0%, #004900 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#00ff00), color-stop(100%,#004900));
+	background: -webkit-linear-gradient(-45deg, #00ff00 0%,#004900 100%);
+	background: -o-linear-gradient(-45deg, #00ff00 0%,#004900 100%);
+	background: -ms-linear-gradient(-45deg, #00ff00 0%,#004900 100%);
+	background: linear-gradient(135deg, #00ff00 0%,#004900 100%);
 }
 project1{
 	background-image: url("file:///Users/Dianas/Desktop/MyBrand/uxportfolio/img/anza-home-.png");
