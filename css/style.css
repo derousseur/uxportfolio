@@ -195,7 +195,7 @@ button .buttonlink hover{
 
 .smallcircle:before{
 	content:'';
-	position:relative;
+	position:absolute;
 	z-index:-1;
 	border-radius: 50%;
 	width: 58px;
