@@ -191,6 +191,7 @@ button .buttonlink hover{
 	margin-left:-11px; /*half width*/
 	margin-top:-11px;
 	position:relative;
+	margin: 0 auto;
 	}
 
 .smallcircle:before{
@@ -202,6 +203,7 @@ button .buttonlink hover{
 	height: 58px;
 	left:-3px;
 	top:-3px;
+	margin: 0 auto;
 	
 	background: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 	background: -webkit-gradient(linear, left top, right bottom, color-stop(20%,#DCBCF5), color-stop(40%,#C6D3FF), color-stop(60%,#C1EAFF), color-stop(80%,#B4F4FF), color-stop(100%,#E5FBD3));
