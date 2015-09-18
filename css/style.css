@@ -147,6 +147,20 @@ button .buttonlink hover{
   padding-left: 0px;
 }
 
+#gradientborder{
+ 
+	  margin: 0 auto;
+	  border: 5px solid transparent;
+	  border-radius: 50%;
+
+	  -moz-background: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	  -webkit-background: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	  background: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+
+	  
+	  
+	
+}
 .gradientborder{
  
 	  margin: 0 auto;
@@ -161,24 +175,10 @@ button .buttonlink hover{
 	  
 	
 }
-#gradientborder{
- 
-	  margin: 0 auto;
-	  border: 5px solid transparent;
-	  
-
-	  -moz-border-image: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	  -webkit-border-image: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	  border-image: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-
-	  border-image-slice: 1; 
-	  
-	
-}
 #boxy{
-  background: black;
-  width: 300px;
-  height: 300px;
+  background: #eee;
+  width: 50px;
+  height: 50px;
   border-radius: 1000px;
 }
 .smallcircle {
