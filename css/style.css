@@ -61,13 +61,13 @@ li a:hover{
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   padding: 25px;
-  border-color: #50E3C2;
+  border-color: #BFF6F6;
   border-width: 5px;
   border-style: solid;
   background: transparent;
   color: #9016b2;
   width: 394px;
-  box-shadow: 0px 0px 20px #50E3C2;
+  box-shadow: 0px 0px 20px #BFF6F6;
 }
 button .buttonlink hover{
   background: white;
@@ -199,7 +199,7 @@ button .buttonlink hover{
 .worktagtext {
 	text-align: center;
 	color: #DCBCF5;
-	font-weight: 700;
+	font-weight: 300;
 	font-size: 20px;
 	padding-top: 12px;
 }
@@ -252,6 +252,40 @@ button .buttonlink hover{
 	border-radius: 50%;
 	width: 154px;
 	height: 154px;
+	left:-2px;
+	top:-2px;
+	image-align: center;
+	
+	background: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(20%,#DCBCF5), color-stop(40%,#C6D3FF), color-stop(60%,#C1EAFF), color-stop(80%,#B4F4FF), color-stop(100%,#E5FBD3));
+	background: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	background: -o-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	background: -ms-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	background: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	
+
+}
+
+.bubblepic {
+	background: url("img/selfuxportfolio.jpg");
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	top:50%;
+	left:50%;
+	margin-left:0px; /*half width*/
+	margin-top:0px;
+	position:relative;
+	margin: 0 auto;
+	}
+
+.bubblepic:before{
+	content:'';
+	position:absolute;
+	z-index:-1;
+	border-radius: 50%;
+	width: 204px;
+	height: 204px;
 	left:-2px;
 	top:-2px;
 	image-align: center;
