@@ -201,9 +201,15 @@ button .buttonlink hover{
 	color: #DCBCF5;
 	font-weight: 700;
 	font-size: 20px;
+	padding-top: 12px;
 }
 .vertical-center{
-	align-content: center;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
 }
 
 #project1{
@@ -219,24 +225,24 @@ button .buttonlink hover{
 }
 
 .bubbletext {
-	color: #DCBCF5;
+	color: #9B9B9B;
 	font-size:14px;
-    line-height: 12px;
+    line-height: 16px;
     font-weight: 400;
-    padding-top: 30px;
-    vertical-align: middle;
+    padding: 30px;
+    text-align: center;
 }
 .bubble {
 	background-color: #fff;
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 	top:50%;
 	left:50%;
-	margin-left:-100px; /*half width*/
-	margin-top:-100px;
+	margin-left:0px; /*half width*/
+	margin-top:0px;
 	position:relative;
-	margin: 0 auto;
+	margin: 0 -50px;
 	}
 
 .bubble:before{
@@ -244,8 +250,8 @@ button .buttonlink hover{
 	position:absolute;
 	z-index:-1;
 	border-radius: 50%;
-	width: 204px;
-	height: 204px;
+	width: 154px;
+	height: 154px;
 	left:-2px;
 	top:-2px;
 	image-align: center;
