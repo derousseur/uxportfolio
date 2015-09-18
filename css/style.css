@@ -182,10 +182,9 @@ button .buttonlink hover{
   border-radius: 1000px;
 }
 .smallcircle {
-	background-color: #eee;
-	filter: blur(3px);
-	width: 52px;
-	height: 52px;
+	background-color: #fff;
+	width: 54px;
+	height: 54px;
 	border-radius: 50%;
 	top:50%;
 	left:50%;
@@ -202,8 +201,8 @@ button .buttonlink hover{
 	border-radius: 50%;
 	width: 58px;
 	height: 58px;
-	left:-3px;
-	top:-3px;
+	left:-2px;
+	top:-2px;
 	image-align: center;
 	
 	background: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
@@ -212,10 +211,21 @@ button .buttonlink hover{
 	background: -o-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 	background: -ms-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 	background: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	
+
 }
+.worktagtext {
+	text-align: center;
+	color: #DCBCF5;
+	font-weight: 700;
+	font-size: 20px;
+	vertical-align: text-bottom;
+}
+
 #project1{
 	background-image: url("http://derousseur.github.io/uxportfolio/img/anza-home-.png");
 	width: 50%;
+	z-index: 9;
 }
 .projecttitle{
 	color:white;
@@ -225,20 +235,22 @@ button .buttonlink hover{
 }
 
 .bubbletext {
-	text-color: white;
+	color: #DCBCF5;
 	font-size:14px;
     line-height: 12px;
     font-weight: 400;
+    padding-top: 30px;
+    vertical-align: middle;
 }
 .bubble {
-	background-color: #eee;
+	background-color: #fff;
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
 	top:50%;
 	left:50%;
-	margin-left:-26px; /*half width*/
-	margin-top:-26px;
+	margin-left:-100px; /*half width*/
+	margin-top:-100px;
 	position:relative;
 	margin: 0 auto;
 	}
@@ -248,10 +260,10 @@ button .buttonlink hover{
 	position:absolute;
 	z-index:-1;
 	border-radius: 50%;
-	width: 58px;
-	height: 58px;
-	left:-3px;
-	top:-3px;
+	width: 204px;
+	height: 204px;
+	left:-2px;
+	top:-2px;
 	image-align: center;
 	
 	background: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
@@ -260,6 +272,8 @@ button .buttonlink hover{
 	background: -o-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 	background: -ms-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 	background: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	
+
 }
 
 
