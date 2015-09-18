@@ -22,8 +22,8 @@ a{
 .textshadow {
 	text-shadow: 0px 0px 15px #50E3C2;
 }
-.boxshadow {
-	box-shadow: 0px 0px 15px #50E3C2;
+.boxshadow a{
+	box-shadow: 0px 0px 15px 8px #50E3C2;
 }
 a:hover{
   text-shadow:0px 0px 0px transparent;
@@ -111,6 +111,7 @@ button .buttonlink hover{
 .howtoimg{
   max-width: 300px;
   max-height: 200px;
+  border
 }
 .icons{
   max-height: 50px;
@@ -121,7 +122,7 @@ button .buttonlink hover{
 }
 
 .sections{
-  padding: 50px 50px;
+  padding: 40px 0px 50px 0px;
   border-top-style: solid;
   border-width: 1px;
   border-color: #9016b2;
@@ -129,9 +130,6 @@ button .buttonlink hover{
 
 .topsection{
   padding: 50px 32px;
-  border-bottom-style: solid;
-  border-width: 1px;
-  border-color: #9016b2;
 }
 
 .input{
@@ -163,6 +161,26 @@ button .buttonlink hover{
 	  
 	
 }
+#gradientborder{
+ 
+	  margin: 0 auto;
+	  border: 5px solid transparent;
+	  
+
+	  -moz-border-image: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	  -webkit-border-image: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	  border-image: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+
+	  border-image-slice: 1; 
+	  
+	
+}
+#boxy{
+  background: black;
+  width: 300px;
+  height: 300px;
+  border-radius: 1000px;
+}
 .smallcircle {
 	background-color: #eee;
 	width: 52px;
@@ -173,6 +191,7 @@ button .buttonlink hover{
 	margin-left:-11px; /*half width*/
 	margin-top:-11px;
 	position:relative;
+	}
 
 .smallcircle:before{
 	content:'';
