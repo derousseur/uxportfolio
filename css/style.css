@@ -109,9 +109,9 @@ button .buttonlink hover{
   padding-top: 5px;
 }
 .howtoimg{
-  max-width: 300px;
-  max-height: 200px;
-  border
+  max-width: 512px;
+  max-height: 512px;
+ 
 }
 .icons{
   max-height: 50px;
@@ -188,8 +188,8 @@ button .buttonlink hover{
 	border-radius: 50%;
 	top:50%;
 	left:50%;
-	margin-left:-11px; /*half width*/
-	margin-top:-11px;
+	margin-left:-26px; /*half width*/
+	margin-top:-26px;
 	position:relative;
 	margin: 0 auto;
 	}
@@ -212,15 +212,17 @@ button .buttonlink hover{
 	background: -ms-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 	background: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 }
-project1{
-	background-image: url("file:///Users/Dianas/Desktop/MyBrand/uxportfolio/img/anza-home-.png");
+#project1{
+	background-image: url("http://derousseur.github.io/uxportfolio/img/anza-home-.png");
+	width: 50%;
 }
-projecttitle{
+.projecttitle{
 	color:white;
 	font-size: 18px;
 	font-weight: 700;
 	text-align: right;
 }
+
 
 @media (max-width: 760px) {
   .howtoimg{
