@@ -44,15 +44,10 @@ li a:hover{
   box-shadow: 0px 2px 7px #888888;
 }
 
-.project-title{
+.logo{
     font-family: 'Megrim', cursive;
-    color: #ffffff;
-    font-size:60px;
-}
-.project-title-sum{
-    font-family: 'Lato', sans-serif;
-    color: #ffffff;
-    font-size:20px;
+    color: #9016b2;
+    font-size:75px;
 }
 
 .logomini{
@@ -61,22 +56,17 @@ li a:hover{
     font-weight: bold;
 }
 
-h1 {
-	font-family: 'Megrim', cursive;
-    color: #9016b2;
-}
-
 .buttonlink{
-  margin: 20px;
+  margin-top: 25px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  padding: 20px;
+  padding: 25px;
   border-color: #BFF6F6;
   border-width: 5px;
   border-style: solid;
   background: transparent;
-  color: #ffffff;
-  width: 200px;
+  color: #9016b2;
+  width: 394px;
   box-shadow: 0px 0px 20px #BFF6F6;
 }
 button .buttonlink hover{
@@ -99,12 +89,7 @@ button .buttonlink hover{
 }
 
 .longtext{
-  font-size:18px;
-}
-
-.quotetext{
-  font-size:18px;
-  font-style: italic;
+  font-size:16px;
 }
 
 .abouttext{
@@ -116,11 +101,6 @@ button .buttonlink hover{
   font-size:14px;
   line-height: 12px;
   font-weight: 400;
-}
-.smallerp{
-  font-size:14px;
-  line-height: 15px;
-  font-weight: 300;
 }
 .extrasmalltext{
   font-size:12px;
@@ -143,20 +123,13 @@ button .buttonlink hover{
 
 .sections{
   padding: 40px 0px 50px 0px;
-  border-bottom-style: solid;
-  border-width: 1px;
-  border-color: #9016b2;
-}
-.sections2{
-  padding: 40px 0px 50px 0px;
   border-top-style: solid;
   border-width: 1px;
   border-color: #9016b2;
 }
 
-.topsectionP {
+.topsection{
   padding: 50px 32px;
-  background: #9016b2;
 }
 
 .input{
@@ -171,14 +144,14 @@ button .buttonlink hover{
   padding: 30px;
 }
 .padtxt{
-  padding: 25px;
+  padding-left: 0px;
 }
 
 
-.sectionsum{
+.gradientborder{
  
 	  margin: 0 auto;
-	  border: 10px solid transparent;
+	  border: 5px solid transparent;
 	  
 
 	  -moz-border-image: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
@@ -223,52 +196,113 @@ button .buttonlink hover{
 	
 
 }
-
-
-
-.arrow_box {
-	position: relative;
-	background: transparent;
+.worktagtext {
+	text-align: center;
+	color: #DCBCF5;
+	font-weight: 300;
+	font-size: 20px;
+	padding-top: 12px;
 }
-.arrow_box:after {
-	left: 90%;
-	top: 20%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-color: rgba(209, 209, 209, 0);
-	border-left-color: #e2e2e2;
-	border-width: 20px;
-	margin-top: -30px;
-}
-.arrow_box2 {
-	position: relative;
-	background: transparent;
-}
-.arrow_box2:after {
-	left: 90%;
-	top: 20%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-color: rgba(209, 209, 209, 0);
-	border-left-color: #f7f7f7;
-	border-width: 20px;
-	margin-top: -30px;
+.vertical-center{
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
 }
 
-.backdiv1{
-	background-color: #f7f7f7;
+#project1{
+	background-image: url("http://derousseur.github.io/uxportfolio/img/anza-home-.png");
+	width: 50%;
+	z-index: 9;
 }
-.backdiv2{
-	background-color: #e2e2e2;
+.projecttitle{
+	color:white;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: right;
 }
+
+.bubbletext {
+	color: #9B9B9B;
+	font-size:14px;
+    line-height: 16px;
+    font-weight: 400;
+    padding: 30px;
+    text-align: center;
+}
+.bubble {
+	background-color: #fff;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top:50%;
+	left:50%;
+	margin-left:0px; /*half width*/
+	margin-top:0px;
+	position:relative;
+	margin: 0 auto;
+	float:left;
+	}
+
+.bubble:before{
+	content:'';
+	position:absolute;
+	z-index:-1;
+	border-radius: 50%;
+	width: 154px;
+	height: 154px;
+	left:-2px;
+	top:-2px;
+	image-align: center;
+	
+	background: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(20%,#DCBCF5), color-stop(40%,#C6D3FF), color-stop(60%,#C1EAFF), color-stop(80%,#B4F4FF), color-stop(100%,#E5FBD3));
+	background: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	background: -o-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	background: -ms-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	background: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	
+
+}
+
+.bubblepic {
+	background: url("img/selfuxportfolio.jpg");
+	width: 50%;
+	height: auto;
+	padding-top: 50%;
+	border-radius: 50%;
+	top:50%;
+	left:50%;
+	margin-left:0px; /*half width*/
+	margin-top:0px;
+	position:relative;
+	margin: 0 auto;
+	
+	}
+
+.bubblepic:before{
+	content:'';
+	position:absolute;
+	z-index:-1;
+	border-radius: 50%;
+	width: 394px;
+	height: 394px;
+	left:-2px;
+	top:-2px;
+	image-align: center;
+	
+	background: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(20%,#DCBCF5), color-stop(40%,#C6D3FF), color-stop(60%,#C1EAFF), color-stop(80%,#B4F4FF), color-stop(100%,#E5FBD3));
+	background: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	background: -o-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	background: -ms-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	background: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	
+
+}
+
 
 @media (max-width: 760px) {
   .howtoimg{
@@ -282,7 +316,7 @@ button .buttonlink hover{
   border-top: 1px;
 }
 .padtxt{
-  padding: 15px;
+  padding: 0px;
 }
 
   }
