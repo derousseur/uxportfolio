@@ -141,10 +141,11 @@ button .buttonlink hover{
 }
 
 .padcol{
-  padding: 30px;
+  padding-top: 15px;
 }
 .padtxt{
-  padding-left: 0px;
+  padding: 0px;
+  margin: 20px 5px;
 }
 
 
@@ -221,7 +222,7 @@ button .buttonlink hover{
 	color:black;
 	font-size: 18px;
 	font-weight: 700;
-	text-align: right;
+	text-align: left;
 }
 
 .bubbletext {
@@ -232,76 +233,9 @@ button .buttonlink hover{
     padding: 30px;
     text-align: center;
 }
-.bubble {
-	background-color: #fff;
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-	top:50%;
-	left:50%;
-	margin-left:0px; /*half width*/
-	margin-top:0px;
-	position:relative;
-	margin: 0 auto;
-	float:left;
-	}
 
-.bubble:before{
-	content:'';
-	position:absolute;
-	z-index:-1;
-	border-radius: 50%;
-	width: 154px;
-	height: 154px;
-	left:-2px;
-	top:-2px;
-	image-align: center;
-	
-	background: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	background: -webkit-gradient(linear, left top, right bottom, color-stop(20%,#DCBCF5), color-stop(40%,#C6D3FF), color-stop(60%,#C1EAFF), color-stop(80%,#B4F4FF), color-stop(100%,#E5FBD3));
-	background: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	background: -o-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	background: -ms-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	background: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	
 
-}
 
-.bubblepic {
-	background: url("img/selfuxportfolio.jpg");
-	width: 50%;
-	height: auto;
-	padding-top: 50%;
-	border-radius: 50%;
-	top:50%;
-	left:50%;
-	margin-left:0px; /*half width*/
-	margin-top:0px;
-	position:relative;
-	margin: 0 auto;
-	
-	}
-
-.bubblepic:before{
-	content:'';
-	position:absolute;
-	z-index:-1;
-	border-radius: 50%;
-	width: 394px;
-	height: 394px;
-	left:-2px;
-	top:-2px;
-	image-align: center;
-	
-	background: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	background: -webkit-gradient(linear, left top, right bottom, color-stop(20%,#DCBCF5), color-stop(40%,#C6D3FF), color-stop(60%,#C1EAFF), color-stop(80%,#B4F4FF), color-stop(100%,#E5FBD3));
-	background: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	background: -o-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	background: -ms-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	background: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	
-
-}
 
 
 @media (max-width: 760px) {
