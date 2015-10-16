@@ -204,6 +204,9 @@ button .buttonlink hover{
 	float:left;
 	
 }
+.padcircle{
+  padding-bottom: 15px;
+}
 .worktagtext {
 	text-align: center;
 	color: #DCBCF5;
@@ -383,7 +386,7 @@ button .buttonlink hover{
     padding-top: 17px;
 }
 .padcircle{
-  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .buttonlink{
