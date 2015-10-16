@@ -309,6 +309,27 @@ button .buttonlink hover{
   padding: 0px;
 }
 
+.longtext{
+  font-size:18px;
+}
+
+.abouttext{
+  padding-top:10px;
+  font-size:18px;
+}
+
+.smalltext{
+  font-size:16px;
+  line-height: 12px;
+  font-weight: 400;
+}
+.extrasmalltext{
+  font-size:12px;
+  line-height: 12px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+
 .smallcircle {
 	background-color: #ffffff;
 	width: 54px;
