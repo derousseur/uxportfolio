@@ -310,22 +310,22 @@ button .buttonlink hover{
 }
 
 .longtext{
-  font-size:18px;
+  font-size:20px;
 }
 
 .abouttext{
   padding-top:10px;
-  font-size:18px;
+  font-size:20px;
 }
 
 .smalltext{
-  font-size:16px;
-  line-height: 12px;
+  font-size:18px;
+  line-height: 20px;
   font-weight: 400;
 }
 .extrasmalltext{
-  font-size:12px;
-  line-height: 12px;
+  font-size:14px;
+  line-height: 16px;
   font-weight: 400;
   padding-top: 5px;
 }
