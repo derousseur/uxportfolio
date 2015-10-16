@@ -70,7 +70,7 @@ li a:hover{
   box-shadow: 0px 0px 20px #BFF6F6;
 }
 button .buttonlink hover{
-  background: white;
+  background: black;
 }
 
 .boldtext{
@@ -382,5 +382,22 @@ button .buttonlink hover{
     font-weight: 400;
     text-align: center;
     padding-top: 17px;
+}
+
+.buttonlink{
+  margin-top: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  padding: 25px;
+  border-color: #BFF6F6;
+  border-width: 5px;
+  border-style: solid;
+  background: transparent;
+  color: #9016b2;
+  width: 150px;
+  box-shadow: 0px 0px 20px #BFF6F6;
+}
+button .buttonlink hover{
+  background: black;
 }
   }
