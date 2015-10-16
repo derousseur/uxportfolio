@@ -300,8 +300,7 @@ button .buttonlink hover{
 	  font-size: 20px;
   }
 .padcol{
-  padding: 0
-  px;
+  padding: 0 px;
   border-color: #9016b2;
   border-top: 1px;
 }
@@ -394,7 +393,7 @@ button .buttonlink hover{
   border-style: solid;
   background: transparent;
   color: #9016b2;
-  width: 150px;
+  width: 200px;
   box-shadow: 0px 0px 20px #BFF6F6;
 }
 button .buttonlink hover{
