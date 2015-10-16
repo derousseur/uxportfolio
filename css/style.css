@@ -188,7 +188,7 @@ button .buttonlink hover{
 	height: 58px;
 	left:-2px;
 	top:-2px;
-	image-align: center;
+	image-align:center;
 	
 	background: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 	background: -webkit-gradient(linear, left top, right bottom, color-stop(20%,#DCBCF5), color-stop(40%,#C6D3FF), color-stop(60%,#C1EAFF), color-stop(80%,#B4F4FF), color-stop(100%,#E5FBD3));
@@ -198,6 +198,11 @@ button .buttonlink hover{
 	background: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 	
 
+}
+
+.circlealignment{
+	float:left;
+	
 }
 .worktagtext {
 	text-align: center;
@@ -215,11 +220,7 @@ button .buttonlink hover{
     align-content: center;
 }
 
-#project1{
-	background-image: url("http://derousseur.github.io/uxportfolio/img/anza-home-.png");
-	width: 50%;
-	z-index: 9;
-}
+
 .projecttitle{
 	color:black;
 	font-size: 18px;
@@ -229,11 +230,19 @@ button .buttonlink hover{
 
 .bubbletext {
 	color: #9B9B9B;
-	font-size:14px;
-    line-height: 16px;
+	font-size:9px;
+    line-height: 10px;
     font-weight: 400;
-    padding: 30px;
     text-align: center;
+    padding-top: 12px;
+}
+.bubbletext2 {
+	color: #9B9B9B;
+	font-size:9px;
+    line-height: 10px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 17px;
 }
 
 .arrow_box {
