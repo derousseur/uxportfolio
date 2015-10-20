@@ -79,8 +79,25 @@ h1 {
   width: 200px;
   box-shadow: 0px 0px 20px #BFF6F6;
 }
-button .buttonlink hover{
+.buttonlink hover{
   background: white;
+}
+
+.buttonlink2{
+  margin-top: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  padding: 25px;
+  border-color: #BFF6F6;
+  border-width: 5px;
+  border-style: solid;
+  background: transparent;
+  color: #9016b2;
+  width: 394px;
+  box-shadow: 0px 0px 20px #BFF6F6;
+}
+.buttonlink2 hover{
+  background: #BFF6F6;
 }
 
 .boldtext{
@@ -286,6 +303,23 @@ button .buttonlink hover{
 }
 .backdiv1{
 	background-color: none;
+}
+
+.buttonlink2{
+  margin-top: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  padding: 25px;
+  border-color: #BFF6F6;
+  border-width: 5px;
+  border-style: solid;
+  background: transparent;
+  color: #9016b2;
+  width: 200px;
+  box-shadow: 0px 0px 20px #BFF6F6;
+}
+.buttonlink2 hover{
+  background: #BFF6F6;
 }
 
   }
