@@ -14,6 +14,7 @@ body {
 }
 
 .wrapper{
+	margin-right: -100px;
 }
 
 a{
@@ -247,6 +248,7 @@ button .buttonlink hover{
     text-align: center;
     padding-top: 18px;
 }
+
 
 .arrow_box {
 	position: relative;
