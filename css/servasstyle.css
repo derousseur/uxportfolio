@@ -284,5 +284,8 @@ button .buttonlink hover{
 .padtxt{
   padding: 15px;
 }
+.backdiv1{
+	background-color: none;
+}
 
   }
