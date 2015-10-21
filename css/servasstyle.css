@@ -11,10 +11,11 @@ body {
     padding-top: 25px;
     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     font-family: 'Lato', sans-serif;
+    margin-right: -15px;
 }
 
 .wrapper{
-	margin-right: -20px;
+
 }
 
 a{
