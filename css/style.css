@@ -71,6 +71,10 @@ li a:hover{
   width: 394px;
   box-shadow: 0px 0px 20px #BFF6F6;
 }
+.buttonlink:hover, .buttonlink:focus, .buttonlink:active{
+  box-shadow: 0px 0px 20px #9016b2;
+}
+
 .buttonlink2{
  margin-top: 15px;
   font-family: 'Lato', sans-serif;
