@@ -157,7 +157,7 @@ h1 {
 }
 
 .rowy{
-  padding-left:0px;
+  margin-right: -4px;
 }
 
 .sections{
@@ -323,5 +323,7 @@ h1 {
 .buttonlink2:hover, .buttonlink2:focus, .buttonlink2:active{
   box-shadow: 0px 0px 20px #9016b2;
 }
-
+.rowy{
+  margin-right: -4px;
+}
   }
