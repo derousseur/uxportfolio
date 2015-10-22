@@ -80,8 +80,9 @@ h1 {
   width: 200px;
   box-shadow: 0px 0px 20px #BFF6F6;
 }
-.buttonlink hover{
-  background: white;
+.buttonlink:hover, .buttonlink:focus, .buttonlink:active{
+  box-shadow: 0px 0px 20px #f9c5fd;
+  background-color: #BFF6F6;
 }
 
 .buttonlink2{
@@ -97,8 +98,8 @@ h1 {
   width: 394px;
   box-shadow: 0px 0px 20px #BFF6F6;
 }
-.buttonlink2 hover{
-  background: #BFF6F6;
+.buttonlink2:hover, .buttonlink2:focus, .buttonlink2:active{
+  box-shadow: 0px 0px 20px #9016b2;
 }
 
 .boldtext{
@@ -319,8 +320,8 @@ h1 {
   width: 200px;
   box-shadow: 0px 0px 20px #BFF6F6;
 }
-.buttonlink2 hover{
-  background: #BFF6F6;
+.buttonlink2:hover, .buttonlink2:focus, .buttonlink2:active{
+  box-shadow: 0px 0px 20px #9016b2;
 }
 
   }
