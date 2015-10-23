@@ -13,8 +13,8 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.wrapper{
-
+.containr{
+width: 100%;
 }
 
 a{
@@ -42,7 +42,8 @@ li a:hover{
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-bottom-style: none;
-  box-shadow: 0px 2px 7px #888888;
+  box-shadow: 0px 2px 7px rgba(202, 202, 202, 0.41);
+  width: 100%;
 }
 
 .project-title{
@@ -156,34 +157,27 @@ h1 {
   max-height: 50px;
 }
 
-.rowy{
-  margin-right: -4px;
-}
+
 
 .sections{
   padding: 40px 0px 50px 0px;
   border-bottom-style: solid;
   border-width: 1px;
   border-color: #9016b2;
+  width: 100%;
 }
 .sections2{
   padding: 40px 0px 50px 0px;
   border-top-style: solid;
   border-width: 1px;
   border-color: #9016b2;
+  width: 100%;
 }
 
 .topsectionP {
   padding: 50px 32px;
   background: #9016b2;
-}
-
-.input{
-  width: 200px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #9016b2;
-  padding-left: 5px;
+  margin: auto;
 }
 
 .padcol{
@@ -208,42 +202,6 @@ h1 {
 	  
 	
 }
-
-.smallcircle {
-	background-color: #ffffff;
-	width: 54px;
-	height: 54px;
-	border-radius: 50%;
-	top:50%;
-	left:50%;
-	margin-left:-26px; /*half width*/
-	margin-top:-26px;
-	position:relative;
-	margin: 0 auto;
-	}
-
-.smallcircle:before{
-	content:'';
-	position:absolute;
-	z-index:-1;
-	border-radius: 50%;
-	width: 58px;
-	height: 58px;
-	left:-2px;
-	top:-2px;
-	image-align: center;
-	
-	background: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	background: -webkit-gradient(linear, left top, right bottom, color-stop(20%,#DCBCF5), color-stop(40%,#C6D3FF), color-stop(60%,#C1EAFF), color-stop(80%,#B4F4FF), color-stop(100%,#E5FBD3));
-	background: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	background: -o-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	background: -ms-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	background: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
-	
-
-}
-
-
 
 .arrow_box {
 	position: relative;
@@ -289,14 +247,51 @@ h1 {
 	background-color: #e2e2e2;
 }
 
+/* Underline From Center */
+.hvr-underline-centerD {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-centerD:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #9016b2;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-centerD:hover:before, .hvr-underline-centerD:focus:before, .hvr-underline-centerD:active:before {
+  left: 0;
+  right: 0;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 760px) {
-  .howtoimg{
-    max-width: 200px;
-    padding-left: -30px;
-  }
+
 .padcol{
-  padding: 0
-  px;
+  padding: 0 px;
   border-color: #9016b2;
   border-top: 1px;
 }
@@ -323,7 +318,39 @@ h1 {
 .buttonlink2:hover, .buttonlink2:focus, .buttonlink2:active{
   box-shadow: 0px 0px 20px #9016b2;
 }
-.rowy{
-  margin-right: -4px;
+
+/* Underline From Center */
+.hvr-underline-centerD {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
 }
+.hvr-underline-centerD:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #9016b2;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-centerD:hover:before, .hvr-underline-centerD:focus:before, .hvr-underline-centerD:active:before {
+  left: 0;
+  right: 0;
+}
+
   }
