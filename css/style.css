@@ -184,8 +184,8 @@ li a:hover{
 	border-radius: 50%;
 	top:50%;
 	left:50%;
-	margin-left:-1px; /*half width*/
-	margin-top:-1px;
+	margin-left:-20px; /*half width*/
+	margin-top:-20px;
 	position:relative;
 	margin: 0 auto;
 	}
@@ -382,8 +382,8 @@ li a:hover{
 	border-radius: 50%;
 	top:50%;
 	left:50%;
-	margin-left:-1px; /*half width*/
-	margin-top:-1px;
+	margin-left:-20px; /*half width*/
+	margin-top:-20px;
 	position:relative;
 	margin: 0 auto;
 	}
