@@ -16,6 +16,9 @@ body {
 .containr{
 width: 100%;
 }
+.in-body {
+	margin: auto;
+}
 
 a{
 	color: inherit;
@@ -289,6 +292,10 @@ h1 {
 
 
 @media (max-width: 760px) {
+	
+.in-body {
+	margin: auto;
+}
 
 .padcol{
   padding: 0 px;
