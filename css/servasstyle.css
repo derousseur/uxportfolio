@@ -38,6 +38,13 @@ li a:hover{
   color: #9016b2;
 
 }
+.disabled{
+	text-decoration: line-through;
+}
+.disabled:hover{
+	text-decoration: line-through;
+	background-color: inherit;
+}
 
 .header{
   background: url(http://derousseur.github.io/img/header.png);
