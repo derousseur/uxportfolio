@@ -117,6 +117,8 @@ li a:hover{
   right: 0;
 }
 
+
+
 /* Header and titles */
 .header{
   background: url(http://derousseur.github.io/img/header.png);
@@ -236,6 +238,12 @@ h1 {
   margin: auto;
 }
 
+.pagersection {
+  padding: 10px 10px;
+  background: #9016b2;
+  margin: auto;
+}
+
 
 .sectionsum{
  
@@ -321,6 +329,7 @@ h1 {
   padding: 15px;
 }
 
+
 /* Div Borders and Backgrounds */
 .backdiv1{
 	background-color: none;
@@ -376,5 +385,6 @@ h1 {
   left: 0;
   right: 0;
 }
+
 
   }
