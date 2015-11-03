@@ -213,7 +213,10 @@ h1 {
 .padtxt{
   padding: 25px;
 }
-
+.displaylabel{
+	display:inline-table;
+	margin-top: 5px;
+}
 
 /* Div Borders and backgrounds or decoration */
 
