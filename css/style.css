@@ -151,22 +151,21 @@ li a:hover{
 }
 
 .longtext{
-  font-size:16px;
+  font-size:18px;
 }
 
 .abouttext{
-  padding-top:10px;
-  font-size:16px;
+  font-size:17px;
 }
 
 .smalltext{
-  font-size:14px;
-  line-height: 12px;
+  font-size:15px;
+  line-height: 15px;
   font-weight: 400;
 }
 .extrasmalltext{
-  font-size:12px;
-  line-height: 12px;
+  font-size:13px;
+  line-height: 13px;
   font-weight: 400;
   padding-top: 5px;
 }
@@ -174,7 +173,7 @@ li a:hover{
 
 .projecttitle{
 	color:black;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 700;
 	text-align: left;
 }
@@ -189,7 +188,7 @@ li a:hover{
 }
 .bubbletext2 {
 	color: #7f7f7f;
-	font-size:13px;
+	font-size:14px;
     line-height: 15px;
     font-weight: 400;
     text-align: center;
