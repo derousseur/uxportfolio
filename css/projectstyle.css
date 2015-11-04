@@ -116,7 +116,12 @@ li a:hover{
   left: 0;
   right: 0;
 }
-
+.highlightlink{
+	color: #9016b2;
+}
+.highlightlink:hover{
+	color: #9b9b9b;
+}
 
 
 /* Header and titles */
@@ -180,22 +185,22 @@ h1 {
 
 .abouttext{
   padding-top:10px;
-  font-size:16px;
+  font-size:17px;
 }
 
 .smalltext{
-  font-size:14px;
-  line-height: 12px;
+  font-size:15px;
+  line-height: 15px;
   font-weight: 400;
 }
 .smallerp{
-  font-size:14px;
-  line-height: 15px;
+  font-size:15px;
+  line-height: 16px;
   font-weight: 300;
 }
 .extrasmalltext{
-  font-size:12px;
-  line-height: 12px;
+  font-size:13px;
+  line-height: 13px;
   font-weight: 400;
   padding-top: 5px;
 } 
