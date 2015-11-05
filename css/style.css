@@ -467,8 +467,8 @@ section {
 	width: 64px;
 	height: 64px;
 	border-radius: 50%;
-	top:50%;
-	left:50%;
+	top:50;
+	left:50;
 	margin-left:-20px; /*half width*/
 	margin-top:-20px;
 	position:relative;
