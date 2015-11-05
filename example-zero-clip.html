@@ -1,4 +1,74 @@
 <html>
+	<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Diana Galvis UX Portfolio: analytical user-centered designer specialized in User Experience design with skills in Visual Information design, Interaction design and Front-end development. I have developed these skills by working as freelancer, intern/volunteer and with my own projects made during my BA in Design and Master in Design and Technology.">
+    <meta name="keywords" content="Diana Galvis,Diana,Galvis,UX, UX design,ux designer,interaction design,UI design,visual design,design,designer,interactive installations,art,art and technology,San Francisco,portfolio">
+    <meta name="author" content="Diana Galvis">
+
+    <title>Diana Galvis | User Experience Designer</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- My CSS + animate -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate2.css" rel="stylesheet">
+    <link href="css/hover-min.css" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!--    JQUERY        =============================================== -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="ZeroClipboard.js"></script>
+<script>
+	var client = new ZeroClipboard( $("#click-to-copy"), {
+              moviePath: "zeroclipboard/ZeroClipboard.swf",
+              debug: false
+} );
+
+client.on( "load", function(client)
+{
+    $('#flash-loaded').fadeIn();
+
+    client.on( "complete", function(client, args) {
+        client.setText( "dianage.dna@gmail.com" );
+        $('#click-to-copy-text').fadeIn();
+    } );
+} );
+</script>
+
+  <script>
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  </script>
+ 
+
+</head>
   <body>
     <div id="d_clip_button" class="clip_button" data-clipboard-text="Copy Me!" title="Click to copy." style="border:1px solid black; padding:20px;">Copy To Clipboard</div>
 
