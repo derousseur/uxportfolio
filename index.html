@@ -34,26 +34,7 @@
     <!--    JQUERY        =============================================== -->
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/ZeroClipboard.js"></script>
-<script type="text/javascript">
-      var client = new ZeroClipboard( $('.clip_button') );
 
-      client.on( 'ready', function(event) {
-        // console.log( 'movie is loaded' );
-
-        client.on( 'copy', function(event) {
-          event.clipboardData.setData('text/plain', event.target.innerHTML);
-        } );
-
-        client.on( 'aftercopy', function(event) {
-          console.log('Copied text to clipboard: ' + event.data['text/plain']);
-        } );
-      } );
-
-      client.on( 'error', function(event) {
-        // console.log( 'ZeroClipboard error of type "' + event.name + '": ' + event.message );
-        ZeroClipboard.destroy();
-      } );
-    </script>
 
   <script>
   $(function() {
@@ -268,7 +249,7 @@ I prefer a work environment that is respectful and collaborative instead of comp
         	</div>
            <div class="col-sm-offset-3 col-sm-6 text-center">
               <a href="https://www.gmail.com" class="btn buttonlink " role="button" target="_blank">dianage.dna@gmail.com</a>
-              <div class="clip_button">Click it and Copy it</div>
+              <div class="clip_button">Copy This Too!</div>
            </div>
            <div class="col-sm-offset-3 col-sm-6 text-center">
               <a href="tel:4155339706" class="btn buttonlink " role="button" target="_blank">+1 415 533 97 06</a>
@@ -300,6 +281,27 @@ I prefer a work environment that is respectful and collaborative instead of comp
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript">
+      var client = new ZeroClipboard( $('.clip_button') );
+
+      client.on( 'ready', function(event) {
+        // console.log( 'movie is loaded' );
+
+        client.on( 'copy', function(event) {
+          event.clipboardData.setData('text/plain', event.target.innerHTML);
+        } );
+
+        client.on( 'aftercopy', function(event) {
+          console.log('Copied text to clipboard: ' + event.data['text/plain']);
+        } );
+      } );
+
+      client.on( 'error', function(event) {
+        // console.log( 'ZeroClipboard error of type "' + event.name + '": ' + event.message );
+        ZeroClipboard.destroy();
+      } );
+    </script>
 
 </wrapper>
 </body>
