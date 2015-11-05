@@ -13,7 +13,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.containr{
+wrapper{
 width: 100%;
 }
 .in-body {
@@ -127,6 +127,29 @@ li a:hover{
 .highlightlink:hover{
 	color: #9b9b9b;
 }
+.clip_button {
+  margin-top: 5px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  padding: 25px;  
+  color: #9016b2;
+  width: 394px;
+  box-shadow: 0px 0px 20px #BFF6F6;
+  
+  border: 5px solid transparent;
+	  
+
+	  -moz-border-image: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	  -webkit-border-image: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	  border-image: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+
+	  border-image-slice: 1; 
+      }
+      .clip_button:hover, .clip_button:focus, .clip_button:active { 
+	      box-shadow: 0px 0px 20px #9016b2;
+	      color: inherit;
+	       }
+
 
 
 /* Header and titles */
@@ -163,13 +186,12 @@ h1 {
 }
 
 /* Text variations */
+strong{
+	font-weight: 400;
+}
 
 .boldtext{
   font-weight: 700;
-}
-
-.mediumtext{
-  font-weight: 400;
 }
 
 .titles{
@@ -209,6 +231,13 @@ h1 {
   font-weight: 400;
   padding-top: 5px;
 } 
+.extrasmalltext2{
+	color: #9016b2;
+  font-size:12px;
+  line-height: 12px;
+  font-weight: 300;
+  padding-top: 5px;
+}
 
 /* Imgs */
 .icons{
@@ -230,18 +259,18 @@ h1 {
 
 /* Div Borders and backgrounds or decoration */
 
-.sections{
+.sections {
   padding: 40px 0px 50px 0px;
   border-bottom-style: solid;
   border-width: 1px;
-  border-color: #9016b2;
+  border-color: #DCBCF5;
   width: 100%;
 }
-.sections2{
+.sections2 {
   padding: 40px 0px 50px 0px;
   border-top-style: solid;
   border-width: 1px;
-  border-color: #9016b2;
+  border-color: #DCBCF5;
   width: 100%;
 }
 
