@@ -35,18 +35,18 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="ZeroClipboard.js"></script>
 <script>
-	var clientText = new ZeroClipboard( $("#text-to-copy"), {
-    moviePath: "http://www.paulund.co.uk/playground/demo/zeroclipboard-demo/zeroclipboard/ZeroClipboard.swf",
-    debug: false
+	var client = new ZeroClipboard( $("#click-to-copy"), {
+              moviePath: "zeroclipboard/ZeroClipboard.swf",
+              debug: false
 } );
 
-clientText.on( "load", function(clientText)
+client.on( "load", function(client)
 {
     $('#flash-loaded').fadeIn();
 
-    clientText.on( "complete", function(clientText, args) {
-        clientText.setText( args.text );
-        $('#text-to-copy-text').fadeIn();
+    client.on( "complete", function(client, args) {
+        client.setText( "dianage.dna@gmail.com" );
+        $('#click-to-copy-text').fadeIn();
     } );
 } );
 </script>
@@ -264,7 +264,7 @@ I prefer a work environment that is respectful and collaborative instead of comp
         	</div>
            <div class="col-sm-offset-3 col-sm-6 text-center">
               <a href="https://www.gmail.com" class="btn buttonlink " role="button" target="_blank">dianage.dna@gmail.com</a>
-              <button id="text-to-copy" data-clipboard-text="Click To Copy!">Click To Copy</button>
+              <button id="click-to-copy">Click To Copy</button>
            </div>
            <div class="col-sm-offset-3 col-sm-6 text-center">
               <a href="tel:4155339706" class="btn buttonlink " role="button" target="_blank">+1 415 533 97 06</a>
