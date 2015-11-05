@@ -352,7 +352,7 @@ section {
 
 
 /* Paddings and alignment*/
-.padimg{
+.padtop{
   padding-top: 15px;
 }
 .padtxt{
@@ -364,7 +364,7 @@ section {
 	float:left;
 	
 }
-.padbubble{
+.padbottom{
   padding-bottom: 15px;
 }
 

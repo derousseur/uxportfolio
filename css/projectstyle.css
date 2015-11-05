@@ -48,7 +48,7 @@ li a:hover{
 	background-color: none;
 }
 
-.buttonlink{
+.buttonlink2{
   margin: 20px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -66,8 +66,8 @@ li a:hover{
   background-color: #BFF6F6;
 }
 
-.buttonlink2{
-  margin-top: 25px;
+.buttonlink{
+  margin-top: 5px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   padding: 25px;  
@@ -256,6 +256,12 @@ strong{
 	display:inline-table;
 	margin-top: 5px;
 }
+.padtop{
+  padding-top: 15px;
+}
+.padbottom{
+  padding-bottom: 15px;
+}
 
 /* Div Borders and backgrounds or decoration */
 
@@ -298,10 +304,21 @@ strong{
 	  border-image: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 
 	  border-image-slice: 1; 
-	  
-	
-}
 
+}
+.thin-gradientborder{
+ 
+	  margin: 0 auto;
+	  border: 10px solid transparent;
+	  
+
+	  -moz-border-image: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	  -webkit-border-image: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	  border-image: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+
+	  border-image-slice: 1; 
+
+}
 .arrow_box {
 	position: relative;
 	background: transparent;
