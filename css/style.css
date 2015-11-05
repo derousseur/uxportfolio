@@ -40,7 +40,7 @@ li a:hover{
 
 }
 .buttonlink{
-  margin-top: 25px;
+  margin-top: 5px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   padding: 25px;  
@@ -103,7 +103,7 @@ li a:hover{
 }
 
 .clip_button {
-        margin-top: 25px;
+  margin-top: 5px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   padding: 25px;  
@@ -120,9 +120,7 @@ li a:hover{
 
 	  border-image-slice: 1; 
       }
-      .clip_button:hover{box-shadow: 0px 0px 20px #9016b2; }
-      .clip_button.zeroclipboard-is-hover { box-shadow: 0px 0px 20px #9016b2; }
-      .clip_button.zeroclipboard-is-active { box-shadow: 0px 0px 20px #9016b2; }
+      .clip_button:hover, .clip_button:focus, .clip_button:active{box-shadow: 0px 0px 20px #9016b2; }
 
 /* Header and Titles*/
 .header{
@@ -182,6 +180,12 @@ li a:hover{
   font-size:13px;
   line-height: 13px;
   font-weight: 400;
+  padding-top: 5px;
+}
+.extrasmalltext2{
+  font-size:12px;
+  line-height: 12px;
+  font-weight: 300;
   padding-top: 5px;
 }
 
