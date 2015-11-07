@@ -126,6 +126,7 @@ li a:hover{
 }
 .highlightlink:hover{
 	color: #9b9b9b;
+	text-decoration: none;
 }
 /*.clip_button {
   margin-top: 5px;
