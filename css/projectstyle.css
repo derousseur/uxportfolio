@@ -387,6 +387,10 @@ strong{
 .padtxt{
   padding: 15px;
 }
+/*Text*/
+lead{
+	font-size: 18px;
+}
 
 
 /* Div Borders and Backgrounds */
