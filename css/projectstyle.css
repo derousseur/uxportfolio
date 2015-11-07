@@ -388,8 +388,8 @@ strong{
   padding: 15px;
 }
 /*Text*/
-lead{
-	font-size: 18px;
+p .lead {
+	font-size: 2em;
 }
 
 
