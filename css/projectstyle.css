@@ -125,6 +125,7 @@ li a:hover{
 }
 .highlightlink{
 	color: #9016b2;
+	text-decoration: underline;
 }
 .highlightlink:hover{
 	color: #9b9b9b;
@@ -177,6 +178,7 @@ li a:hover{
     font-size:20px;
 }
 
+
 .logomini{
     font-family: 'Megrim', cursive;
     color: #9016b2;
@@ -189,13 +191,31 @@ h1 {
 }
 
 /* Text variations */
-lead{
-	line-height: 2.3em;
-    font-weight: 400;
+.lead{
+	font-size: 18px;
+	line-height: 1.6em;
+    font-weight: 300;
+    
+    
 }
-
-strong{
+.imgtxt{
 	font-weight: 300;
+	font-size: 1.4em;
+
+
+	max-width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+    
+}
+strong{
+  font-weight: 400; 
+  color: #4a4a4a;
+
+/* color: #b519df;
+text-shadow: 0px 0px 5px  #ff00e1; */
+
+
 }
 
 .boldtext{
@@ -230,7 +250,7 @@ q {
 }
 .smallerp{
   font-size:15px;
-  line-height: 16px;
+  line-height: 25px;
   font-weight: 300;
 }
 .extrasmalltext{
@@ -396,10 +416,15 @@ q {
   padding: 15px;
 }
 /*Text*/
-p .lead {
-	font-size: 2em;
+.lead {
+	font-size: 18px;
+	line-height: 1.6em;
+    font-weight: 300;
 }
-
+.imgtxt{
+	font-weight: 300;
+	font-size: 1.4em;
+}
 
 /* Div Borders and Backgrounds */
 .backdiv1{
