@@ -12,7 +12,6 @@ body {
     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     font-family: 'Lato', sans-serif;
     line-height: 2em;
-    font-weight: 400;
 }
 
 wrapper{
