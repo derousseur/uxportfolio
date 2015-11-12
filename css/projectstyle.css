@@ -11,6 +11,8 @@ body {
     padding-top: 25px;
     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     font-family: 'Lato', sans-serif;
+    line-height: 2em;
+    font-weight: 400;
 }
 
 wrapper{
@@ -187,12 +189,17 @@ h1 {
 }
 
 /* Text variations */
+lead{
+	line-height: 2.3em;
+    font-weight: 400;
+}
+
 strong{
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .boldtext{
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .titles{
