@@ -18,6 +18,7 @@
     <link href="css/projectstyle.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/hover-min.css" rel="stylesheet">
+    <link href="css/bootstrap-lightbox.min" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
@@ -33,6 +34,7 @@
 
     <!--    JQUERY        =============================================== -->
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-lightbox.min.js"></script>
 <script type="text/javascript" src="js/ZeroClipboard.js"></script>
   <script>
   $(function() {
@@ -185,7 +187,7 @@
 			    <p class="lead longtext text-left padtxt">
                    
                   <span class="boldtext">Challenges</span></br>
-                  •Servas is an international organization so many of the procedures cannot be changed. <br>•Low budget to build the changes. <br>•Dealing with large age ranges between users </br></br>
+                  •Servas is an international organization so many of the procedures cannot be changed. <br>•Low budget to build the changes. <br>•Dealing with large age ranges between users <br>•<strong>Designing an online experience aligned with offline experiences</strong></br></br>
                   <span class="boldtext">Results</span></br>
          	         This project allowed Servas to <strong>request around $20000 in donations</strong> to rebuild their website.
                   </p>
@@ -274,32 +276,53 @@
         </div>
         <div class="col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-1 col-md-5">
 	        <p class="lead longtext text-left padtxt">
-		        <span class="boldtext">Insights</span> we kept in mind when designing a solution:<br>
-		        •Younger people (18-35) in the US are active internet users. They <strong>expect standard web dynamics</strong>.<br>
-		        •Younger audiences want <strong>to feel excited about traveling</strong> and meeting new people. They want to feel inspired.<br>
-		        •Current members expect new members to be <strong>concern with social issues and curious</strong> about people and the world.
+		        We made a survey to recruit people who have interest in home stay travel. We still didn't have a clear idea of who the user was. <br> Meanwhile we did a <span class="boldtext">Product Evaluation of Website and Content Inventory</span>.<br>
+		        •Text-heavy content (equivalent to a 4 pages essay written in italics)<br>
+		        •Some of that content is repeated in different pages<br>
+		        •No images except for the logo<br>
+		        •Many pages were empty or contained a single link to a 30 pages pdf.<br>
+		        •Some of those links were repeated in other pages
 	        </p>
         </div>
         <div class="col-xs-offset-0 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-5 col-xs-12">
+	        <p class="lead padtop imgtxt">Current website's sitemap: a lot of those pages where empty, loaded with italic repeated text and exactly zero images (there was a logo though).</p><img src="img/currentsitemap-servas.png" class="img-responsive center-block" alt="Image of servas old sitemap">    
+        </div>
+        <div class="col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8">
+	        <p class="lead padtop imgtxt">This is a screenshot of how Servas explains in full detail the application process of a traveler</p><a href="http://www.usservas.org/Membership/index.php?Page=Application" target="_blank"><img src="img/servas-heavycontentscreen.png" class="img-responsive center-block" alt="The traveler registration process usually takes about three weeks. To join as a traveler for the first time, you will need to meet with a local volunteer interviewer and provide two letters of reference. All the forms and information you need are available through this Web site. If the interviewer believes your travel plans and goals are compatible with Servas, s/he will approve your Letter of Introduction and send the materials to the California office. Upon receipt, the office will validate your Letter of Introduction and send back the original to you, along with any host lists you requested. Lists will be sent by first class mail, though travelers may request express delivery for an additional charge."></a>
+	    </div>    
+        <div class="col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8">
+	      <p class="lead longtext text-left padtxt">
+	        <span class="boldtext">Application process evaluation</span><br>		        
+	        	•Forms ask for a lot of information that isn't necessary at the moment.<br>
+		        •There is no indication for next steps. You have to figure out why there is a "Pending status" unless you read the full instructions previously.<br>
+		        •In the FQA's you'll find out that you are not a member yet until an interviewer approves you. You'll also find out that the entire process usually takes at least 3 weeks.
+        </div>
+            <div class="col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8">
+		        <img src="img/servas-pendingstatusscreen.png" class="img-responsive center-block" alt="Image of pending status screenshot"><br>
+	        </p></div>
+        <div class="col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-1 col-md-5">
 	        <p class="lead longtext text-left padtxt">
 		        <span class="boldtext">User Interviews</span> with potential members showed us that people came to expect the following:<br>
 		        •Viewable <strong>member profiles</strong> with pictures and interests<br>
 		        •More <strong>pictures and stories</strong> of visits on the website<br>
 		        •A clear and <strong>straightforward sign-up process</strong><br>
 		        •To know that all members have been verified and also to see other <strong>member feedback/reviews</strong><br>
-		        •To <strong>communicate with other members</strong> on the website<br>
+		        •To <strong>communicate with other members</strong> on the website<br><br>
+		        <span class="boldtext">Insights</span> we kept in mind:<br>
+		        •Younger people (18-35) in the US are active internet users. They <strong>expect standard web dynamics</strong>.<br>
+		        •Younger audiences want <strong>to feel excited about traveling</strong> and meeting new people. They want to feel inspired.<br>
+	        </p>
+        </div>
+        <div class="col-xs-offset-0 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-5 col-xs-12">
+		        <img src="img/affinitydiagrampic-servas.jpg" class="img-responsive center-block" alt="Image of the affinity diagram made in the wall">
 	        </p>
         </div>
         <div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
-	        <p class="lead padtop imgtxt"><br>Affinity diagram: research findings digitized</p><img src="img/affinity-diagram-servas.svg" class="img-responsive center-block" alt="Image of an affinity diagram digitized">
+	        <p class="lead padtop imgtxt"><br>Affinity diagram: research findings digitized</p><img src="img/servas-affinitydiagram.svg" class="img-responsive center-block" alt="Image of an affinity diagram digitized">
         </div>
-        <div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
-	        <p class="lead padtop imgtxt"><br>Same affinity diagram: I need space to build them</p><img src="img/affinitydiagrampic-servas.jpg" class="img-responsive center-block" alt="Image of the affinity diagram made in the wall">
-        </div>
-        <div class="col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8">
+        <div class="col-sm-offset-2 col-sm-8">
 	        <p class="lead longtext text-left padtxt">
-		        <span class="boldtext">Personas</span><br>
-		        These personas are the <strong>synthesis of the interviews</strong>.  I divided and grouped the information across several variables. These following <strong>variables: goals, purpose for joining, member type, tech-savy-ness, and trust in strangers</strong>. Then, I gave each group the personality traits of the correspondent people interviewed. The main persona is Jess because she can travel but can't host people. These are the kinds of travelers that are more convenient for Servas.  
+		        We created <span class="boldtext">Personas</span> to guide our decisions. These personas are the <strong>synthesis of the interviews</strong>.  I divided and grouped the information across <strong>variables: goals, purpose for joining, member type, tech-savvy-ness, and trust in strangers</strong>. Then, I gave each group the personality traits of the correspondent people interviewed. <strong>The main user is Jess</strong> because she pays the highest fee and she is the young audience current members want to recruit.  
 	        </p>
         </div>
         <div class="col-sm-offset-1 col-sm-10 col-md-5">
@@ -322,45 +345,45 @@
         <div class="col-sm-offset-0 col-sm-12">
 	        <h1 class="text-center padtxt">2. Ideation</h1>
         </div>
-        <div class="col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-1 col-md-5">
+        <div class="col-sm-offset-2 col-sm-8">
+	        <p class="lead longtext text-left padtxt">
+		        <span class="boldtext">Strategy</span><br>
+		        The research results were clear on what kind of features we needed to include. Thus we created a strategy according to it:<br>
+		        • Jess is tech-savvy. She expects things like a web connection to her facebook with a single click.<br> 
+		        • She is a very visual person. She needs the website to <strong>change from text-based to image-based with friendly visual design</strong>.<br> 
+		        • Jess is uncomplicated and like immediacy. She needs easy access to clear information: <strong>short nav, short copy, visual cues to guide her</strong>.
+		         </br></br>
+	        </p>
+        </div>
+        <div class="col-sm-offset-2 col-sm-8">
 	        <p class="lead longtext text-left padtxt">
 		        <span class="boldtext">Sitemap</span><br>
-		        The research results were clear on what kind of features we needed to include. Thus we created a strategy according to it. We agreed to make a <strong>simple 2 levels nav</strong>. We chose and <strong>tested the labels</strong> together. focused on information to learn more about membership types and Servas members activities. </br></br>
+		        We agreed to make a <strong>simple 2 levels nav</strong>. We chose and <strong>tested the labels</strong> together. focused on information to learn more about membership types and Servas members activities. 
 	        </p>
-        </div>
-        <div class="col-xs-offset-0 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-5 col-xs-12">
-	        <p class="lead longtext text-left padtxt">
-		        <span class="boldtext">User Flows</span><br>
-		        We also knew what parts of the procedure should be out of the application process. Many of them had to stay, but <strong>we managed to make the process less exhausting by relying on the digital platform</strong>. We used scenarios to figure out what our users would do instead.
-	        </p>
-        </div>
-        <div class="col-xs-offset-0 col-sm-offset-1 col-sm-10 col-xs-12">
-	        <p class="lead smallerp text-left padtxt">
-		        <span class="boldtext">For example:</span> the current process requires 2 letters of recommendation from friends. Applicants must print a form, send it through postal mail to 2 friends, let them fill it and send back so you can send all papers together. Our users would just call their friends for a favor. Yet, Jess would feel embarrassed to put them through so much trouble. So in <strong>our solution you only need to give 2 names and emails</strong> and tell your friends about it. Servas will send a short digital form via email.  
-	        </p>
-        </div>
-        
-        <div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
-	         <p class="lead padtop imgtxt"><br>Current website's sitemap: a lot of those pages where empty, loaded with italic repeated text and exactly zero images (there was a logo though).</p><img src="img/currentsitemap-servas.png" class="img-responsive center-block" alt="Image of servas old sitemap">
         </div>
         <div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
 	        <p class="lead padtop imgtxt"><br>Proposed sitemap</p><img src="img/proposedsitemap-servas.png" class="img-responsive center-block" alt="Image of our proposed sitemap">
         </div>
+        <div class="col-sm-offset-2 col-sm-8">
+	        <p class="lead longtext text-left padtxt">
+		        <span class="boldtext">User Flows</span><br>
+		        We also knew what parts of the procedure should be out of the application process. Many of them had to stay, but <strong>we managed to make the process less exhausting by relying on the digital platform</strong>. We used scenarios to figure out what Jess would do instead.
+	        </p>
+        </div>
         <div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
-	        <p class="lead padtop imgtxt"><br>Current user flow analysis: <br>• That big "?" on the image is when people need to find an interviewer but there is no indication where or how. Hint: you see a map by chance and hopefully there's a phone number.
-		        <br>• They already spent an hour filling a "Letter of Introduction" form they will need to refill if approved by the interviewer. If the membership is denied, they wasted 1 hour of their lives.</p><img src="img/userflowanalysis-servas.jpg" class="img-responsive center-block" alt="Image of the servas membership application userflow made with post its and markers on the wall">
+	        <p class="lead padtop imgtxt"><br>Current user flow analysis: That big "?" on the image is when you see a "Status:Pending" but there are no clear directions for next steps </p><img src="img/userflowanalysis-servas.jpg" class="img-responsive center-block" alt="Image of the servas membership application userflow made with post its and markers on the wall">
         </div>
          <div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
-	        <p class="lead padtop imgtxt"><br>Designing the new user flow: We provided a way to find an interviewer and set up a meeting. We moved that torturous form, now users do it after the interview is approved. We divided it in 3 digestible bites.</p><img src="img/designingtheuserflow-servas.jpg" class="img-responsive center-block" alt="Image of black marker notes on top of the current user flow diagram on the wall">
+	        <p class="lead padtop imgtxt"><br>Designing the new user flow: Jess would expect clear instructions and a way to send a message. She would choose the interviewer depending on their profile picture. So we provided a way to find + choose an interviewer and set up a meeting in-site.</p><img src="img/designingtheuserflow-servas.jpg" class="img-responsive center-block" alt="Image of black marker notes on top of the current user flow diagram on the wall">
         </div>
         <div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
-	        <p class="lead padtop imgtxt"><br>Proposed user flow all nice and clean. Try the <a href="https://marvelapp.com/e1hd16" class="highlightlink" target="_blank">prototype</a> to see how it goes. </p><img src="img/proposeduserflow-servas.png" class="img-responsive center-block" alt="Image of our proposed userflow">
+	        <p class="lead padtop imgtxt"><br>In our proposed user flow: you register, contact interviewer, go to interview and if approved, you fill the profile. We tried to make clear connections between online and offline procedures. The "Letter of Introduction" or profile form is a long form but we couldn't changed it due to bureaucratic reasons. We just divided it and made it digestible. </p><a data-target="#lightbox" href="img/proposeduserflow-servas.png" class="highlightlink imgtxt">Open image in lightbox<img src="img/proposeduserflow-servas.png" class="img-responsive center-block" alt="Image of our proposed userflow"></a>
         </div>
         
         <div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
 	        <p class="lead longtext text-left padtxt">
 		        <span class="boldtext">Interface sketching and design definition</span><br>
-		        We based the interface design in my sketches, which I based on our previous decisions. The sketches were clear enough to help us ask other people for their opinion and make changes on the spot. 
+		        We based the interface design in my sketches, which I based on our strategy: focus on images of people and places, explain what Servas is in a short copy, etc. The sketches were clear enough to help us ask other people for their opinion and make changes on the spot.
 	        </p>
         </div>
         <div class="col-sm-offset-1 col-sm-10 col-md-5">
@@ -379,39 +402,47 @@
 	        <div class="col-sm-offset-0 col-sm-12">
 		            <h1 class="text-center padtxt">3. Prototyping</h1>
 		    </div>
-		    <div class="col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-1 col-md-5">
+		    <div class="col-sm-offset-2 col-sm-8">
 	        <p class="lead longtext text-left padtxt">
 		        <span class="boldtext">Mood Boards and Visual Design</span><br>
-		        I created moodboards that integrated the Servas' identity and the user's imagery of traveling and source of inspiration. Thus, there were 3 big themes: <br>1. Earthly-dream: imagery from the globetrotter and curious about people side of the travelers. The best match for Servas.<br> 2. Earthly-visionary: imagery from the peace making and volunteer side of the committed travelers.<br> 3. Dream-Remembrance: imagery from the romantic wanderlust side of the younger travelers.</br></br>
+		        I created moodboards that integrated the <strong>Servas' identity + Jess's imagery</strong> of traveling and sources of inspiration. We offered Servas 3 big themes: 
 	        </p>
             </div>
-        
-        <div class="col-xs-offset-0 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-5 col-xs-12">
-	        <p class="lead longtext text-left padtxt">
-		        <span class="boldtext">Wireframes, Prototype and User Testing</span><br>
-		        I used elements of the visual mood boards to make the visual design of the interface. My partner used the wireframes I did in Illustrator for the  Marvel app prototype. We then proceeded to recruit current young members to test our solution. They could appreciate the difference with the current website and approved the general approach to the problem. However, there were still details in usability and specific UI patterns that needed revision. We iterated until it was time to stop.
-	        </p>
-        </div>
-        <div class="col-xs-12"></div>
-
-       <div class="col-sm-offset-1 col-sm-10 col-md-5">
+            <div class="col-sm-offset-2 col-sm-8">
+	            <p class="lead padtop imgtxt">1. Earthly-dream: imagery from the globetrotter and curious about people side of the travelers. The best match for Servas.</p>
+            </div>
+        <div class="col-sm-offset-1 col-sm-10 col-md-5">
 	        <img src="img/moodboard3servas.png" class="img-responsive center-block" alt="Image of an aglomeration of images of the mood board Earthly - dream">
         </div>
         <div class="col-sm-offset-1 col-sm-10 col-md-offset-0 col-md-5">
 	        <img src="img/moodboard3-servas.png" class="img-responsive center-block" alt="Image of typography options and color pallete of mood board Earthly - dream">
         </div>
+         	<div class="col-sm-offset-2 col-sm-8">
+	            <p class="lead padtop imgtxt"><br>2. Earthly-visionary: imagery from the peace making and volunteer side of the committed travelers.</p>
+            </div>
         <div class="col-sm-offset-1 col-sm-10 col-md-5">
 	        <img src="img/moodboard1servas.png" class="img-responsive center-block" alt="Image of an aglomeration of images of the mood board Earthly - visionary">
         </div>
         <div class="col-sm-offset-1 col-sm-10 col-md-offset-0 col-md-5">
 	        <img src="img/moodboard1-servas.png" class="img-responsive center-block" alt="Image of typography options and color pallete of mood board Earthly - visionary">
         </div>
+      	  <div class="col-sm-offset-2 col-sm-8">
+	            <p class="lead padtop imgtxt"><br>3. Dream-Remembrance: imagery from the romantic wanderlust side of the younger travelers.</p>
+            </div>
         <div class="col-sm-offset-1 col-sm-10 col-md-5">
 	        <img src="img/moodboard2servas.png" class="img-responsive center-block" alt="Image of an aglomeration of images of the mood board Dream - remembrance">
         </div>
         <div class="col-sm-offset-1 col-sm-10 col-md-offset-0 col-md-5">
 	        <img src="img/moodboard2-servas.png" class="img-responsive center-block" alt="Image of typography options and color pallete of mood board Dream - remembrance">
         </div>
+        
+        <div class="col-sm-offset-2 col-sm-8">
+	        <p class="lead longtext text-left padtxt">
+		        <span class="boldtext">Wireframes, Prototype and User Testing</span><br>
+		        I used elements of the visual mood boards to make the visual design of the interface. My partner used the wireframes I did in Illustrator for the  Marvel app prototype. <br>We then proceeded to <strong>recruit current young members to test our solution</strong>. They could appreciate the difference with the current website and approved the general approach to the problem. 
+	        </p>
+        </div>
+        
         
         <div class="col-sm-offset-1 col-sm-10 col-md-5">
 	        <p class="lead padtop"><br>Wireframe: home page</p><img src="img/wireframe-home-servas.png" class="img-responsive center-block" alt="Image of home page wireframe made with sketch app">
@@ -431,15 +462,10 @@
 	        <div class="col-sm-offset-0 col-sm-12">
 		            <h1 class="text-center padtxt">4. Presentation</h1>
 		    </div>
-		    <div class="col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-1 col-md-5">
+		   
+            <div class="col-sm-offset-2 col-sm-8">
 	         <p class="lead longtext text-left padtxt">
-		        <span class="boldtext">Presentation to Client</span><br>
-		        We first delineated what the project goals were. Continue to explain how we did the research, its purpose and its results. We explained our analysis of the problem according to it and our strategy to solve the issue. Then we explained in detail the changes in the UI to accomplish the strategy, priorities in such changes and next steps.</br></br>
-	         </p>
-            </div>
-            <div class="col-xs-offset-0 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-5 col-xs-12">
-	         <p class="lead longtext text-left padtxt">
-		        <span class="boldtext">Response</span><br>
+		        <span class="boldtext">Client Response</span><br>
 		        Our client understood the changes were necessary. They worried about money to put them in place and all the bureaucratic decisions for approval. But they felt encouraged and excited to do it. In general, they were satisfied with our work. The following recommendation from my <a href="https://www.linkedin.com/in/dianagalvis" class="highlightlink">LinkedIn profile</a> proves the results.
 		        
 	         </p>
