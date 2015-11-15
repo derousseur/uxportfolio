@@ -78,13 +78,13 @@
                     <tspan x="531.128418" y="1125.336">New Data</tspan>
                     <tspan x="531.128418" y="1154.336" font-size="20">most recent</tspan>
                 </text>
-                <rect id="Rectangle-39-Copy-42" stroke="url(#linearGradient-1)" fill="#BFF6F6" sketch:type="MSShapeGroup" x="550" y="254" width="409" height="89"></rect>
-                <rect id="Rectangle-39-Copy-44" stroke="url(#linearGradient-1)" fill="#BFF6F6" sketch:type="MSShapeGroup" x="238.227051" y="931.5" width="231" height="89"></rect>
-                <rect id="Rectangle-39-Copy-48" stroke="url(#linearGradient-1)" fill="#BFF6F6" sketch:type="MSShapeGroup" x="299" y="1391" width="43.6028764" height="33.168"></rect>
-                <rect id="Rectangle-39-Copy-46" stroke="url(#linearGradient-1)" fill="#BFF6F6" sketch:type="MSShapeGroup" x="499.075684" y="931.5" width="173" height="89"></rect>
-                <rect id="Rectangle-39-Copy-43" stroke="url(#linearGradient-1)" fill="#BFF6F6" sketch:type="MSShapeGroup" x="549.75" y="401.168" width="409" height="115.832"></rect>
-                <rect id="Rectangle-39-Copy-45" stroke="url(#linearGradient-1)" fill="#BFF6F6" sketch:type="MSShapeGroup" x="700.151367" y="1072" width="231" height="115.832"></rect>
-                <rect id="Rectangle-39-Copy-47" stroke="url(#linearGradient-1)" fill="#BFF6F6" sketch:type="MSShapeGroup" x="959" y="1058.418" width="231" height="143.164"></rect>
+                <rect id="Rectangle-39-Copy-42" stroke="url(#linearGradient-1)" fill="#FFFFFF" sketch:type="MSShapeGroup" x="550" y="254" width="409" height="89"></rect>
+                <rect id="Rectangle-39-Copy-44" stroke="url(#linearGradient-1)" fill="#FFFFFF" sketch:type="MSShapeGroup" x="238.227051" y="931.5" width="231" height="89"></rect>
+                <rect id="Rectangle-39-Copy-48" stroke="url(#linearGradient-1)" fill="#FFFFFF" sketch:type="MSShapeGroup" x="299" y="1391" width="43.6028764" height="33.168"></rect>
+                <rect id="Rectangle-39-Copy-46" stroke="url(#linearGradient-1)" fill="#FFFFFF" sketch:type="MSShapeGroup" x="499.075684" y="931.5" width="173" height="89"></rect>
+                <rect id="Rectangle-39-Copy-43" stroke="url(#linearGradient-1)" fill="#FFFFFF" sketch:type="MSShapeGroup" x="549.75" y="401.168" width="409" height="115.832"></rect>
+                <rect id="Rectangle-39-Copy-45" stroke="url(#linearGradient-1)" fill="#FFFFFF" sketch:type="MSShapeGroup" x="700.151367" y="1072" width="231" height="115.832"></rect>
+                <rect id="Rectangle-39-Copy-47" stroke="url(#linearGradient-1)" fill="#FFFFFF" sketch:type="MSShapeGroup" x="959" y="1058.418" width="231" height="143.164"></rect>
                 <text id="Extend-“my-saved-sea" sketch:type="MSTextLayer" font-family="Lato" font-size="24" font-weight="normal" fill="#9016B2">
                     <tspan x="579.75" y="304.5">Extend “my saved searches” panel</tspan>
                 </text>

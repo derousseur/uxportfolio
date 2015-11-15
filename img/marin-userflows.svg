@@ -80,10 +80,10 @@
                 <text id="Bike-Specs-Page" sketch:type="MSTextLayer" font-family="Lato" font-size="24" font-weight="260" fill="#BFF6F6">
                     <tspan x="548.982788" y="763.454">Bike Specs Page</tspan>
                 </text>
-                <rect id="Rectangle-39-Copy-44" stroke="url(#linearGradient-1)" fill="#BFF6F6" sketch:type="MSShapeGroup" x="251.5" y="219" width="173" height="89"></rect>
-                <rect id="Rectangle-39-Copy-46" stroke="url(#linearGradient-1)" fill="#BFF6F6" sketch:type="MSShapeGroup" x="383.5" y="416.5" width="173" height="89"></rect>
-                <rect id="Rectangle-39-Copy-47" stroke="url(#linearGradient-1)" fill="#BFF6F6" sketch:type="MSShapeGroup" x="474.215576" y="613.5" width="237.767212" height="89"></rect>
-                <rect id="Rectangle-39-Copy-48" stroke="url(#linearGradient-1)" fill="#BFF6F6" sketch:type="MSShapeGroup" x="796.715576" y="955" width="43.6028764" height="33.168"></rect>
+                <rect id="Rectangle-39-Copy-44" stroke="url(#linearGradient-1)" fill="#FFFFFF" sketch:type="MSShapeGroup" x="251.5" y="219" width="173" height="89"></rect>
+                <rect id="Rectangle-39-Copy-46" stroke="url(#linearGradient-1)" fill="#FFFFFF" sketch:type="MSShapeGroup" x="383.5" y="416.5" width="173" height="89"></rect>
+                <rect id="Rectangle-39-Copy-47" stroke="url(#linearGradient-1)" fill="#FFFFFF" sketch:type="MSShapeGroup" x="474.215576" y="613.5" width="237.767212" height="89"></rect>
+                <rect id="Rectangle-39-Copy-48" stroke="url(#linearGradient-1)" fill="#FFFFFF" sketch:type="MSShapeGroup" x="796.715576" y="955" width="43.6028764" height="33.168"></rect>
                 <text id="Choose-a" sketch:type="MSTextLayer" font-family="Lato" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#9016B2">
                     <tspan x="288.550176" y="258.5">Choose a</tspan>
                     <tspan x="309.010176" y="287.5">place</tspan>
