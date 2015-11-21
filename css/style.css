@@ -59,6 +59,8 @@ li a:hover{
 }
 .buttonlink:hover, .buttonlink:focus, .buttonlink:active{
   box-shadow: 0px 0px 20px #9016b2;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 
@@ -169,7 +171,10 @@ strong{
 .longtext{
   font-size:18px;
 }
-
+q {
+  font-size:18px;
+  font-style: italic;
+}
 .abouttext{
   font-size:17px;
 }

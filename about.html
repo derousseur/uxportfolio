@@ -16,7 +16,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- My CSS + animate -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/animate2.css" rel="stylesheet">
+    <link href="css/hover-min.css" rel="stylesheet">
+    
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
 
@@ -30,7 +32,9 @@
     <![endif]-->
 
     <!--    JQUERY        =============================================== -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/ZeroClipboard.js"></script>
+
 
   <script>
   $(function() {
@@ -49,16 +53,16 @@
     });
   });
   </script>
+ 
 
 </head>
 
 <body>
-
-<div class="wrapper">
-
-
+<wrapper>
+<!-- Header -->
+	<header>
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top header" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top header in-body" role="navigation">
         <div class="header">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header fadeInDown">
@@ -68,108 +72,269 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand logomini" href="#">diana galvis</a>
+                <a href="#top" class="navbar-brand logomini hvr-underline-centerD">diana galvis</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav pull-right">
-                    <li>
-                        <a href="#about">About</a>
+	                <li>
+                        <a href="#top" class="textshadow hvr-underline-centerD"><span aria-hidden="true">&uarr;</span>Top</a>
                     </li>
                     <li>
-                        <a href="#focus">Focus</a>
+                        <a href="#projects" class="textshadow hvr-underline-centerD">Projects</a>
                     </li>
                     <li>
-                        <a href="#strenghts">Strenghts</a>
+                        <a href="#recommendations" class="textshadow hvr-underline-centerD">Recommendations</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#focus" class="textshadow hvr-underline-centerD">Focus Areas</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="textshadow hvr-underline-centerD">Tools and Skills</a>
+                    </li>
+                    <li>
+                        <a href="#process" class="textshadow hvr-underline-centerD">Process</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="textshadow hvr-underline-centerD">Contact</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
+        <!-- /.nav -->
     </nav>
+    <!-- /.header -->
+	</header>
 
     <!-- Page Content -->
-    <div class="containr">
-
-        <div class="row topsection" id="about">
-            <div class="col-lg-12 text-center">
-                <h1 class="logo">diana galvis</h1>
-                <p class="lead">Human-centered Design and New Media Art</p>
-                <p class="smalltext">BA Design + MFA Design and Technology</p>
+    <main>
+	    <!-- Top Section -->
+        <section class="row in-body topsection" id="top">
+            <div class="col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 text-center">
+                <h1 class="logo animated fadeInDown">About me</h1>
             </div>
-            <div class="col-lg-3 col-md-3">
-            </div>
-              <div class="col-lg-6 col-md-6 text-center">
-                  <p class="lead abouttext">I'm an analytical user-centered designer specialized in User Experience design with skills in Visual Information design, Interaction design and Front-end development. I have developed these skills by working as freelancer, intern/volunteer and with my own projects made during my BA in Design and Master in Design and Technology.  </p>
-              </div>
+        <div class="col-sm-6 col-md-offset-2 col-md-4 img-responsive">
+	        <img src="http://derousseur.github.io/uxportfolio/img/self-ggb.jpg" class="img-responsive center-block" alt="Image of myself sitting on a rock at the beach with the Golden Gate in the background"><br>
+	        <div class="col-xs-offset-1 col-xs-1 col-sm-offset-3 col-sm-1 col-sm-offset-1 col-md-1 text-center bubblealignment padbottom">
+		        <div class="animated2 rubberBand bubblealignment hvr-bob"><div class="bubble bubbletext">Plays with code and hardware</div></div>
+		    </div>
+	        <div class="col-xs-offset-2 col-xs-1 col-sm-1 col-md-1 text-center bubblealignment padbottom">
+		        <div class="animated2 rubberBand bubblealignment hvr-bob"><div class="bubble bubbletext">Social justice advocate</div></div>
+		    </div>
+		    <div class="col-xs-offset-2 col-xs-1 col-sm-1 col-md-1 text-center bubblealignment padbottom">
+		        <div class="animated2 rubberBand bubblealignment hvr-bob"><div class="bubble bubbletext">Loves<br> Sci-fi and Fantasy</div></div>
+		    </div>
+		    <div class="col-xs-12"></div>
         </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+	        <p class="lead abouttext text-left">
+Hi! I'm a UX designer. I want to focus in User Research, IA and Interaction Design. Yet, I can <em>fill the gaps</em> in the UX umbrella if I have to.<br><br>
+I want to <strong>improve how we interact with each other</strong> and the world around us.
+I'm empathetic, analytical and strategic. INTP.<br><br>
+The projects I like the most are related to <a href="http://derousseur.github.io/uxportfolio/projects-socialgood.html" class="highlightlink"><strong>social good</strong></a>, <a href="http://derousseur.github.io/uxportfolio/projects-emotional-connections.html" class="highlightlink"><strong>emotional connections</strong></a>, <a href="http://derousseur.github.io/uxportfolio/projects-art-tech.html" class="highlightlink"><strong>art + tech</strong></a>, <a href="http://derousseur.github.io/uxportfolio/projects-travel-outdoors.html" class="highlightlink"><strong>travel and outdoors</strong></a>. You'll see me at design meetups, concerts, reading or hiking.<br>
+I look forward to meet a self-motivated team of designers that dream to work collaboratively (instead of competing) for big ideas, for good design and for a better future.</p>
+        </div>
+        </section>
         <!-- /.row 1-->
-
-        <div class="row sections" id="focus">
-            <h1 class="col-lg-12 text-center titles">Focus Areas</h1>
-            <div class="col-lg-4 text-center">
-                <img src="img/header.png" class="img-responsive howtoimg center-block" alt="Responsive image">
-                <h1>UX/UI design</h1>
-                <p class="lead longtext">My work as UX designer for US Servas (non-profit) allowed them to request around $20000 in donations to rebuild their website. Currently I'm UX at GreenInfo Network and researcher at Collective Invention.</p>
-            </div>
-            <div class="col-lg-4 text-center">
-                <img src="img/header.png" class="img-responsive howtoimg center-block" alt="Responsive image">
-                <h1>Interaction design</h1>
-                <p class="lead longtext">As an interaction designer and new media artist, I've created interactive environments that earned me recognition from SFAI, Sf Examiner, GevMag and communities of creative technologists like Gray Area</p>
-            </div>
-            <div class="col-lg-4 text-center">
-                <img src="img/header.png" class="img-responsive howtoimg center-block" alt="Responsive image">
-                <h1>Information Design</h1>
-                <p class="lead longtext">My past work as freelance visual and graphic designer focused on information design which is organizing information in a useful way according to the users goals: like menus or book indexes. Type and color lover</p>
-            </div>
+        
+        <!-- Recommendations Section -->
+		<section class="row in-body aboutme sections" id="recommendations">        
+        <div class="col-sm-offset-0 col-sm-12">
+	        <h1 class="titles text-center">Recommendations</h1>
         </div>
-        <!-- /.row 2-->
-
-        <div class="row sections" id="strenghts">
-            <h1 class="col-lg-12 text-center titles">Strenghts</h1>
-            <div class="col-lg-4 text-center">
-                <img src="img/header.png" class="img-responsive howtoimg center-block" alt="Responsive image">
-                <h1>User Research</h1>
-                <p class="lead longtext">Interviews, Contextual inquiry, Shadowing, Competitive analysis, Desktop research, Surveys, IDEO cards, User story mapping, Affinity diagrams, etc</p>
-            </div>
-            <div class="col-lg-4 text-center">
-                <img src="img/header.png" class="img-responsive howtoimg center-block" alt="Responsive image">
-                <h1>Concept Development</h1>
-                <p class="lead longtext">Empathic user flows, information architecture and user experience design strategy based on personas and user scenarios that correspond to the user research</p>
-            </div>
-            <div class="col-lg-4 text-center">
-                <img src="img/header.svg" class="img-responsive howtoimg center-block" alt="Responsive image">
-                <h1>Design Iterations</h1>
-                <p class="lead longtext">Sketching, wireframing and prototyping with constant user feedback until meeting an ideal (or good quality) solution within the constraints</p>
-            </div>
+        <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6 backdiv1">
+	        <p class="lead longtext padtxt">
+		        <q>Diana was part of a 2 member team to help suggest a complete redesign of the US Servas website, usservas.org. The suggested redesign was so clear and powerful that the US Servas board was energized to fund a full blown redesign based on her vision for a new US Servas website</q> <br>
+		        <span class="smallerp"><a href="https://www.linkedin.com/pub/mary-jane-mikuriya/5/774/b04" class="highlightlink">– Recommendation by Mary Jane Mikuriya</a> 
+Peace Secretary, Key Person Committee, N Calif. Regional Coordinator, Interviewer at US Servas</span>
+	        </p>
         </div>
+        <div class="col-xs-12"><br></div>
+        <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6 backdiv1">
+	        <p class="lead longtext padtxt">
+		        <q>Diana loves solving complex information design problems. She's able to learn about and conceptually organize large sets of data and other information, and develop user experience/interface approaches that get at the best approaches for making that information accessible. <strong>She has good process tools for interviewing stakeholders, organizing and prioritizing systems of information and reporting back on good designs.</strong></q> <br>
+		        <span class="smallerp"><a href="https://www.linkedin.com/in/larryorman" class="highlightlink">– Recommendation by Larry Orman</a> 
+Executive Director, GreenInfo Network</span>
+	        </p>
+        </div>
+        <div class="col-sm-offset-0 col-sm-12 text-center padtop">
+	        <a href="https://www.linkedin.com/in/dianagalvis" class="btn buttonlink " role="button" target="_blank">More in LinkedIn</a>
+        </div> 
+		</section>
+		<!-- 		/.row 2 -->
+		
+		 <!-- Focus Section -->
+		<section class="row in-body aboutme sections" id="focus">        
+        <div class="col-sm-offset-0 col-sm-12">
+	        <h1 class="titles text-center">Focus Areas</h1>
+        </div>
+        <div class="col-xs-12"></div>
+             <div class="col-xs-4 col-sm-offset-3 col-sm-2 col-md-1 text-center padbottom">
+		        <div class="animated2 rubberBand hvr-bob"><div class="bubble bubbletext">Human centered <br>design</div></div>
+		    </div>
+	        <div class="col-xs-4 col-sm-2 col-md-1 text-center padbottom"> 
+		        <div class="animated2 rubberBand hvr-bob"><div class="bubble bubbletext">Ethno-<br>graphic research</div></div>
+	        </div>
+	        <div class="col-xs-4 col-sm-2 col-md-1 text-center padbottom"> 
+		        <div class="animated2 rubberBand hvr-bob"><div class="bubble bubbletext2">Product Strategy</div></div>
+	        </div>
+	        <div class="col-xs-4 col-sm-offset-3 col-sm-2 col-md-offset-0 col-md-1 text-center padbottom"> 
+		        <div class="animated2 rubberBand hvr-bob"><div class="bubble bubbletext2">Info. <br>Architect</div></div>
+	        </div>
+	        <div class="col-xs-4 col-sm-2 col-md-1 text-center padbottom"> 
+		        <div class="animated2 rubberBand hvr-bob"><div class="bubble bubbletext2">Interaction<br>design</div></div>
+	        </div>
+	        <div class="col-xs-4 col-sm-2 col-md-1 text-center padbottom"> 
+		        <div class="animated2 rubberBand hvr-bob"><div class="bubble bubbletext2">Visual <br>design</div></div>
+	        </div>
+        <div class="col-xs-12"></div>
+        <img src="img/skills-linkedin.png" class="img-responsive center-block" alt="Screenshot of skills">
+        <div class="col-xs-offset-0 col-sm-4 col-md-4 text-center">
+<!--                 <img src="img/header.png" class="img-responsive howtoimg center-block" alt="Responsive image"> -->
+                <h3>UX design</h3>
+                <p class="lead longtext padtxt">My work for US Servas (non-profit) allowed them to request around $20000 in donations to rebuild their website. </p>
+            </div>
+            <div class="col-xs-offset-0 col-sm-4 col-md-4  text-center">
+<!--                 <img src="img/header.png" class="img-responsive howtoimg center-block" alt="Responsive image"> -->
+                <h3>Interaction design</h3>
+                <p class="lead longtext padtxt">I've created interactive environments that earned me recognition from SFAI, Sf Examiner, GevMag and communities of technologists like Gray Area</p>
+            </div>
+            <div class="col-xs-offset-0 col-sm-4 col-md-4  text-center padbottom">
+<!--                 <img src="img/header.png" class="img-responsive howtoimg center-block" alt="Responsive image"> -->
+                <h3>Strategic Branding</h3>
+                <p class="lead longtext padtxt">My past work focused on the information design, branding and strategy for new products and services</p>
+            </div>
+        
+           
+        <div class="col-sm-offset-0 col-sm-12 text-center">
+	        <a href="http://dianagalvis.com/assets/cv2015.pdf" class="btn buttonlink " role="button" target="_blank">See my resume</a>
+        </div>    
+         
+            
+</section>
         <!-- /.row 3-->
+		
 
-
-        <footer>
-          <div class="row sections" id="contact">
-              <h1 class="col-lg-12 text-center titles">Contact</h1>
-          <div class="col-lg-12 text-center">
-              <p class="lead">dianage.dna@gmail.com</p>
-              <p class="lead">+1 415 533 97 06</p>
-          </div>
+		<!-- Process Section -->
+		<section class="row in-body sections process" id="process">
+        <div class="col-sm-offset-0 col-sm-12">
+	        <h1 class="titles text-center">Process</h1>
         </div>
+        <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8">
+	        <p class="lead longtext text-left padtxt">
+		        <span class="boldtext">Each project has its own process.</span>
+		        All of them start with my need to understand the context and the users. They all finish with a presentation to the client and documents for next steps.
+	        </p>
+        </div>
+        <div class="col-xs-12"></div>
+        <div class="col-sm-6 col-md-3 thin-gradientborder">
+	        <p class="lead boldtext padtxt">1. Research</p>
+	        <p class="lead abouttext text-left">
+		        I need <strong>to understand</strong> the problem, the context, the audience and business expectations.<br>
+		        <p class="smallerp text-left">Interviews, Contextual inquiry, Shadowing, Competitive analysis, Desktop research, Surveys, IDEO cards, Customer Journey Mapping, Affinity diagrams, etc</p>
+		    </p>
+	    </div>
+        <div class="col-sm-6 col-md-3 thin-gradientborder">
+	        <p class="lead boldtext padtxt">2.1. Ideation</p>
+	        <p class="lead abouttext text-left">
+		        I need <strong>to produce</strong> tools to help me <strong>analyze and brainstorm</strong> empathetic and strategic solutions.<br>
+		        <p class="smallerp text-left">Empathic user flows + information architecture + experience design strategy based on personas and scenarios that correspond to the research </p>
+		    </p>
+        </div>
+        <div class="col-sm-6 col-md-3 thin-gradientborder">
+	        <p class="lead boldtext padtxt">2.2. Prototyping</p>
+	        <p class="lead abouttext text-left">
+		        I need <strong>to test</strong> my ideas, receive user feedback and improve them as early in the process as possible.<br>
+		        <p class="smallerp text-left">Sketching, wireframing and prototyping with constant user feedback until meeting an ideal (or good quality) solution within the time constraints</p>
+		    </p>
+        </div>
+        <div class="col-sm-6 col-md-3 thin-gradientborder">
+	        <p class="lead boldtext padtxt">3. Presentation</p>
+	        <p class="lead abouttext text-left">
+		        I want <strong>to deliver</strong> work that my client feels satisfied with and that is useful for implementation.<br>
+		        <p class="smallerp text-left">Presentable design artifacts to support design decisions. Wireframe notations and screen user flows as deliverables for development. Image-based content presentations for clients.</p>
+		    </p>
+		</div>
+		
+		
+		</section> 
+
+    
+    <!-- /.row 4-->
+    
+     <!-- Skills Section -->
+<!--
+		<section class="row in-body aboutme sections" id="skills">        
+        <div class="col-sm-offset-0 col-sm-12">
+	        <h1 class="titles text-center">Tools and Skills</h1>
+        </div>
+        
+		</section>
+-->
+<!-- 		/.row 5-->
+ </main>
+
+<footer>     
+        <section class="row sections in-body" id="contact">
+          	<div class="col-sm-offset-0 col-sm-12 text-center">
+	       		 <h1 class="titles text-center">Contact</h1>
+        	</div>
+           <div class="col-sm-offset-3 col-sm-6 text-center">
+              <div class="btn clip_button buttonlink">dianage.dna@gmail.com</div><p class="extrasmalltext2">Click to copy email</p>
+           </div>
+           <div class="col-sm-offset-3 col-sm-6 text-center">
+              <a href="tel:4155339706" class="btn buttonlink " role="button" target="_blank">+1 415 533 97 06</a>
+           </div>
+
+           <div class="col-sm-offset-3 col-sm-6 text-center padtop padbottom">
+               
+			   <a href="https://twitter.com/DeRousseur" class="hvr-bob" target="_blank"><img src="img/twitter.png" class="icons" alt="Link to my twitter at D e R o u s s e u r"></a>
+			   <a href="https://www.linkedin.com/pub/diana-galvis/21/349/31" class="hvr-bob" target="_blank"><img src="img/linkedin.png" class="icons" alt="Link to my linked in profile to see my professional experience"></a>
+			   <a href="https://www.behance.net/dianage" class="hvr-bob" target="_blank"><img src="img/behance.png" class="icons" alt="Link to my behance portfolio where I keep old school and personal projects on visual arts, typography, illustration and art direction"></a>
+			   <a href="https://github.com/derousseur" class="hvr-bob" target="_blank"><img src="img/github.png" class="icons" alt="Link to my github profile where you can see code I've written for physical computing projects, UI design, other digital graphics and this portfolio"></a>
+			   <a href="https://vimeo.com/dianagalvis" class="hvr-bob" target="_blank"><img src="img/vimeo.png" class="icons" alt="Link to my vimeo account where you'll find video artwork and short films I've made"></a>
+			   <a href="http://instagram.com/derousseur" class="hvr-bob" target="_blank"><img src="img/instagram.png" class="icons" alt="Link to my instagram profile so you get a feeling of what things fill my life with joy"></a>
+			   <a href="https://www.flickr.com/photos/d-i-a-n-a/" class="hvr-bob" target="_blank"><img src="img/flickr.png" class="icons" alt="Link to my flickr to see travel photography and cute animals"></a>
+			   <a href="https://medium.com/@derousseur" class="hvr-bob" target="_blank"><img src="img/medium.png" class="icons" alt="Link to my medium profile to read posts and future rants"></a>
+			   <a href="http://dianage.tumblr.com/" class="hvr-bob" target="_blank"><img src="img/tumblr.png" class="icons" alt="Link to my tumblr blog to see all the things I support and like, essentially my moodboard"></a>
+			   <a href="https://www.facebook.com/Di4n4.G4lvi5" class="hvr-bob" target="_blank"><img src="img/facebook.png" class="icons" alt="Link to my facebook public page because I won't add you to my personal facebook unless we talk personally first"></a>
+			</div>
+			<div class="col-xs-12 thin-gradientborder">
+	     	     <p class="extrasmalltext padtxt text-right">Designed and Coded by Diana Galvis © 2015</p>
+		 	</div>
+        </section>
         <!-- /.row 4 footer-->
+</footer>
 
-    </div>
-    <!-- /.container -->
-  </div>
-    <!-- /.wrapper -->
-
+</wrapper>
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    
+    <!-- ZeroClipboard JavaScript -->
+    <script type="text/javascript">
+      var client = new ZeroClipboard( $('.clip_button') );
+
+      client.on( 'ready', function(event) {
+        // console.log( 'movie is loaded' );
+
+        client.on( 'copy', function(event) {
+          event.clipboardData.setData('text/plain', event.target.innerHTML);
+        } );
+
+        client.on( 'aftercopy', function(event) {
+          console.log('Copied text to clipboard: ' + event.data['text/plain']);
+        } );
+      } );
+
+      client.on( 'error', function(event) {
+        // console.log( 'ZeroClipboard error of type "' + event.name + '": ' + event.message );
+        ZeroClipboard.destroy();
+      } );
+    </script>
 
 
 </body>
