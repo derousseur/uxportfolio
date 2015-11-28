@@ -367,10 +367,12 @@ section {
 
 .project-item{
 	max-width: 30%;
-	margin-left: 1%;
 	padding: 15px;
 	float: left;
 	display: inline-block;
+}
+.margin-left{
+	margin-left: 1%;
 }
 .marrow{
 	margin-left: 8%;
@@ -577,11 +579,13 @@ section {
 
 .project-item{
 	max-width: 100%;
-	margin-left: 0;
 	margin-top: 1%;
 	padding: 15px;
 	float: left;
 	display: inline-block;
+}
+.margin-left{
+	margin-left: 0;
 }
 .marrow{
 	margin-left: 0;
