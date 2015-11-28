@@ -374,8 +374,17 @@ section {
 .margin-left{
 	margin-left: 1%;
 }
-.marrow{
+.col-offset{
 	margin-left: 8%;
+}
+.project-item2{
+	max-width: 40%;
+	padding: 15px;
+	float: left;
+	display: inline-block;
+}
+.col-offset2{
+	margin-left: 16%;
 }
 
 
