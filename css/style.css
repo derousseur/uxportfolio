@@ -147,10 +147,10 @@ li a:hover{
     color: #9016b2;
     font-size:75px;
 }
-.title{
+.main-title{
     font-family: 'Megrim', cursive;
     color: #9016b2;
-    font-size:65px;
+    font-size:75px;
 }
 
 .logomini{
@@ -515,6 +515,11 @@ section {
 }
 
 /* Text variations*/
+.main-title{
+    font-family: 'Megrim', cursive;
+    color: #9016b2;
+    font-size:65px;
+}
 .lead{
 	  font-size: 20px;
   }
