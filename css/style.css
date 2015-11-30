@@ -594,12 +594,20 @@ section {
 	display: inline-block;
 }
 .margin-left{
-	margin-left: 1%;
+	margin-left: 0%;
 }
 .marrow{
 	margin-left: 0;
 }
-
+.project-item2{
+	max-width: 100%;
+	padding: 15px;
+	float: left;
+	display: inline-block;
+}
+.col-offset2{
+	margin-left: 0%;
+}
 
 /* Paddings and aligment*/
 .padcol{
