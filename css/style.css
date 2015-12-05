@@ -239,6 +239,10 @@ q {
     padding-top: 21px;
 }
 
+.not-working{
+	text-decoration: line-through;
+}
+
 /* Imgs*/
 .icons{
   max-height: 50px;
