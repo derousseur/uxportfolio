@@ -161,6 +161,9 @@ li a:hover{
 
 
 /* Text variations*/
+.labeltxt{
+	color: #9016b2;
+	}
 .lead{
 	font-size: 18px;
 	line-height: 1.6em;
@@ -376,6 +379,7 @@ section {
 
 .project-item{
 	max-width: 30%;
+	margin-top: 10px;
 	padding: 15px;
 	float: left;
 	display: inline-block;
@@ -388,6 +392,7 @@ section {
 }
 .project-item2{
 	max-width: 40%;
+	margin-top: 10px;
 	padding: 15px;
 	float: left;
 	display: inline-block;
@@ -450,8 +455,12 @@ section {
 }
 	}
 
-
-
+.hidden {
+	display: none;
+	}
+.visible {
+	display: inherit !important;
+	}
 
 
 
@@ -530,12 +539,12 @@ section {
   }
 
 .longtext{
-  font-size:20px;
+  font-size:1.2em;
 }
 
 .abouttext{
   padding-top:10px;
-  font-size:20px;
+  font-size:1.2em;
 }
 
 .smalltext{
