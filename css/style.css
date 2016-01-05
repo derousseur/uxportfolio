@@ -34,7 +34,7 @@ a{
 }
 a:hover{
   text-shadow:0px 0px 0px transparent;
-  box-shadow:0px 0px 0px transparent;
+/*   box-shadow:0px 0px 0px transparent; */
   color:inherit;
   text-decoration: inherit;}
 
@@ -383,6 +383,7 @@ section {
 	padding: 15px;
 	float: left;
 	display: inline-block;
+	box-shadow: 0px 2px 5px #acacac;
 }
 .margin-left{
 	margin-left: 1%;
@@ -396,6 +397,7 @@ section {
 	padding: 15px;
 	float: left;
 	display: inline-block;
+	box-shadow: 0px 2px 5px #acacac;
 }
 .col-offset2{
 	margin-left: 16%;
@@ -632,6 +634,14 @@ section {
 }
 .col-offset2{
 	margin-left: 0;
+}
+.projectimg{
+	size: 50%;
+	float: left;
+}
+.project-pre-txt{
+	width: 50%;
+	float: right;
 }
 
 /* Paddings and aligment*/
