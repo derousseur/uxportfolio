@@ -385,6 +385,12 @@ section {
 	display: inline-block;
 	box-shadow: 0px 2px 5px #acacac;
 }
+.project-item:hover{
+	box-shadow:  0px 0px 0px #acacac;
+	}
+.project-item:active{
+	box-shadow:  inset 0px 2px 5px #acacac;
+	}
 .margin-left{
 	margin-left: 1%;
 }
@@ -397,10 +403,26 @@ section {
 	padding: 15px;
 	float: left;
 	display: inline-block;
-	box-shadow: 0px 2px 5px #acacac;
+	box-shadow: 0px 0px 5px #acacac;
 }
+.project-item2:hover{
+	box-shadow:  0px 0px 0px #acacac;
+	}
+.project-item2:active{
+	box-shadow:  inset 0px 1px 5px #acacac;
+	}
 .col-offset2{
 	margin-left: 16%;
+}
+.thumb-img{
+	width: 40%;
+	float: left;
+	overflow: hidden;
+	}
+.project-preview{
+	margin-left: 1%;
+	width: 59%;
+	float: left;
 }
 
 
