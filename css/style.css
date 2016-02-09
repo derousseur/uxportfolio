@@ -636,7 +636,7 @@ section {
 
 .project-item{
 	max-width: 100%;
-	margin-top: 1%;
+	margin-top: 5%;
 	padding: 15px;
 	float: left;
 	display: inline-block;
@@ -649,7 +649,7 @@ section {
 }
 .project-item2{
 	max-width: 100%;
-	margin-top: 1%;
+	margin-top: 5%;
 	padding: 15px;
 	float: left;
 	display: inline-block;
@@ -665,6 +665,18 @@ section {
 	width: 50%;
 	float: right;
 }
+
+.thumb-img-media{
+	width: 40%;
+	float: left;
+	overflow: hidden;
+	}
+.project-preview-media{
+	margin-left: 1%;
+	width: 59%;
+	float: left;
+}
+
 
 /* Paddings and aligment*/
 .padcol{
