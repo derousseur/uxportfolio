@@ -66,6 +66,7 @@ li a:hover{
 -webkit-transition-duration: 0.3s;
   transition-duration: 0.2s;
 */
+  color: #9016b2;
   border: 1px solid transparent;
   -moz-border-image: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 	  -webkit-border-image: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
@@ -276,6 +277,20 @@ section {
   padding: 50px 32px;
 }
 
+.very-thin-gradientborder{
+ 
+	  
+	  border: 1px solid transparent;
+	  
+
+	  -moz-border-image: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	  -webkit-border-image: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	  border-image: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+
+	  border-image-slice: 1; 
+	  
+	
+}
 
 .thin-gradientborder{
  
