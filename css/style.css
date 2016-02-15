@@ -60,20 +60,23 @@ li a:hover{
 
 	  border-image-slice: 1; 
 }
-.buttonlink:hover, .buttonlink:focus, .buttonlink:active{
-  box-shadow: 0px 0px 0px #acacac /* 0px 0px 20px #9016b2 */;
+.buttonlink:hover, .buttonlink:focus {
+  box-shadow: inset 0px 2px 8px #d5d5d5 /* 0px 0px 20px #9016b2 */;
   
 -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
 
   color: #9016b2;
-  border: 1px solid transparent;
+  border: 5px solid transparent;
   -moz-border-image: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 	  -webkit-border-image: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 	  border-image: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 
 	  border-image-slice: 1; 
 }
+.buttonlink:active{
+	box-shadow: inset 0px 3px 10px #acacac;
+	}
 
 
 /* */
@@ -563,12 +566,25 @@ section {
   background: transparent;
   color: #9016b2;
   width: 200px;
-  box-shadow: 0px 0px 20px #BFF6F6;
+  box-shadow: 0px 5px 8px #d5d5d5;
 }
-.buttonlink a:hover{
-  background: #BFF6F6;
-}
+.buttonlink:hover, .buttonlink:focus, {
+ box-shadow: inset 0px 0px 5px #d5d5d5 /* 0px 0px 20px #9016b2 */;
+  
+-webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
 
+  color: #9016b2;
+  border: 5px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	  -webkit-border-image: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	  border-image: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+
+	  border-image-slice: 1; 
+}
+.buttonlink:active{
+	box-shadow: inset 0px 3px 10px #acacac;
+	}
 
 /* */
 .hvr-underline-centerD {
@@ -685,7 +701,14 @@ section {
 	background: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 
 }
-
+.box-attention{
+	max-width: 100%;
+	margin-top: 5%;
+	padding: 15px;
+	float: left;
+	display: inline-block;
+	box-shadow: 0px 1px 6px #d5d5d5;
+}
 .project-item{
 	max-width: 100%;
 	margin-top: 5%;
