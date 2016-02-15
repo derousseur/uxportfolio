@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400);
 @import url(http://fonts.googleapis.com/css?family=Lato:700);
 @import url(http://fonts.googleapis.com/css?family=Lato:900);
-
+@import url(http://fonts.googleapis.com/css?family=Crete+Round);
 
 
 /* body - margin */
@@ -283,6 +283,13 @@ q {
   font-weight: 300;
   padding-top: 5px;
 }
+.lg-logotype{
+	font-family: "Crete Round", serif;
+	font-size: 15em;
+	text-align: center;
+	letter-spacing: 7px;
+	color: #871010;
+}
 
 /* Imgs */
 .icons{
@@ -408,10 +415,21 @@ q {
 	background-color: #e2e2e2;
 }
 
-
-
-
-
+/* iframe */
+.iframe-class {
+  border: 0;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  width: 200%;
+  height: 200%;
+}
+.frame-container {
+  margin-left: 10%;
+  width: 80%;
+  height: 800px;
+  display: block;
+  float: left;
+}
 
 
 
@@ -445,6 +463,13 @@ q {
 .lg-to-s-title{
 	font-size:47px;
 }
+.lg-logotype{
+	font-family: "Crete Round", serif;
+	font-size: 5em;
+	text-align: center;
+	letter-spacing: 7px;
+	color: #871010;
+}
 
 /* Div Borders and Backgrounds */
 .backdiv1{
@@ -453,7 +478,7 @@ q {
 }
 
 /* Links and hover */
-buttonlink{
+.buttonlink{
   margin-top: 5px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
