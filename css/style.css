@@ -61,7 +61,7 @@ li a:hover{
 	  border-image-slice: 1; 
 }
 .buttonlink:hover, .buttonlink:focus {
-  box-shadow: inset 0px 2px 8px #d5d5d5 /* 0px 0px 20px #9016b2 */;
+  box-shadow: inset 0px 3px 10px #c6c6c6 /* 0px 0px 20px #9016b2 */;
   
 -webkit-transition-duration: 0.15s;
   transition-duration: 0.15s;
@@ -75,7 +75,7 @@ li a:hover{
 	  border-image-slice: 1; 
 }
 .buttonlink:active{
-	box-shadow: inset 0px 3px 10px #acacac;
+	box-shadow: inset 0px 4px 10px #acacac;
 	}
 
 
