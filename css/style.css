@@ -12,7 +12,7 @@ body {
     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     font-family: 'Lato', sans-serif;   	
     line-height: 2em;
-    color: black;
+    color: #202020;
     /* background-color: #fffdff; */
 }
 wrapper {
@@ -200,7 +200,15 @@ strong{
 
 .longtext{
   font-size:18px;
-  color: black;
+  color: #202020;
+  
+
+/*
+font-size: 1.1em;
+  color: #939393;
+  font-weight: 400;
+*/
+
 }
 q {
   font-size:18px;
@@ -231,7 +239,7 @@ q {
 
 
 .projecttitle{
-	color:black;
+	color:#202020;
 	font-size: 20px;
 	font-weight: 700;
 	text-align: left;
@@ -794,7 +802,7 @@ body {
     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     font-family: 'Lato', sans-serif;   	
     line-height: 2em;
-    color: black;
+    color: #202020;
     /* background-color: #fffdff; */
 }
 wrapper {
@@ -964,6 +972,7 @@ li a:hover{
     font-weight: 300;
     
     
+    
 }
 strong{
 	font-weight: 400;
@@ -982,7 +991,7 @@ strong{
 
 .longtext{
   font-size:18px;
-  color: black;
+  color: #202020;
 }
 q {
   font-size:18px;
@@ -1013,7 +1022,7 @@ q {
 
 
 .projecttitle{
-	color:black;
+	color:#202020;
 	font-size: 20px;
 	font-weight: 700;
 	text-align: left;
