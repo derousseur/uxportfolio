@@ -116,7 +116,7 @@ li a:hover{
 	color: #9016b2;
 }
 .highlightlink:hover{
-	color: #9b9b9b;
+	color: #5C5C6E;
 	text-decoration: none;
 }
 
@@ -252,7 +252,7 @@ q {
 	}
 
 .bubbletext {
-	color: #7f7f7f;
+	color: #5C5C6E;
 	font-size:14px;
     line-height: 15px;
     font-weight: 400;
@@ -260,7 +260,7 @@ q {
     padding-top: 14px;
 }
 .bubbletext2 {
-	color: #7f7f7f;
+	color: #5C5C6E;
 	font-size:14px;
     line-height: 15px;
     font-weight: 400;
@@ -374,42 +374,7 @@ q {
 }
 
 
-.arrow_box {
-	position: relative;
-	background: transparent;
-}
-.arrow_box:after {
-	left: 90%;
-	top: 20%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-color: rgba(209, 209, 209, 0);
-	border-left-color: #e2e2e2;
-	border-width: 20px;
-	margin-top: -25px;
-}
-.arrow_box2 {
-	position: relative;
-	background: transparent;
-}
-.arrow_box2:after {
-	left: 90%;
-	top: 20%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-color: rgba(209, 209, 209, 0);
-	border-left-color: #f7f7f7;
-	border-width: 20px;
-	margin-top: -25px;
-}
+
 
 .backdiv1{
 	background-color: #f7f7f7;
@@ -671,7 +636,7 @@ q {
   padding-top: 5px;
 }
 .bubbletext {
-	color: #7f7f7f;
+	color: #5C5C6E;
 	font-size:12px;
     line-height: 12px;
     font-weight: 400;
@@ -679,7 +644,7 @@ q {
     padding-top: 12px;
 }
 .bubbletext2 {
-	color: #7f7f7f;
+	color: #5C5C6E;
 	font-size:12px;
     line-height: 12px;
     font-weight: 400;
