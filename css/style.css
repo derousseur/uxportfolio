@@ -146,13 +146,15 @@ li a:hover{
  Header and Titles*/
 .header{
   background: url(http://derousseur.github.io/uxportfolio/img/header.png);
-  opacity: 0.95;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-bottom-style: none;
   box-shadow: 0px 2px 7px rgba(202, 202, 202, 0.41);
   width: 100%;
 }
+li{
+	color: #5C5C6E;
+	}
 
 .logo{
     font-family: 'Lato', cursive;
@@ -491,7 +493,7 @@ q {
 }
 	
 	.bubbletext {
-	color: #7f7f7f;
+	color: #5C5C6E;
 	font-size:15px;
     line-height: 17px;
     font-weight: 400;
@@ -499,7 +501,7 @@ q {
     padding-top: 18px;
 }
 .bubbletext2 {
-	color: #7f7f7f;
+	color: #5C5C6E;
 	font-size:15px;
     line-height: 17px;
     font-weight: 400;
