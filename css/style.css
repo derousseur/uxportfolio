@@ -286,7 +286,7 @@ q {
 }
 
 .topsection{
-  padding: 50px 32px;
+  padding: 50px 10px;
 }
 
 .very-thin-gradientborder{
@@ -597,7 +597,7 @@ q {
 /* Text variations*/
 .logo{
     font-family: 'Lato', cursive;
-    font-weight: 300;
+    font-weight: 100;
     color: #9016b2;
     font-size:65px;
 }
@@ -606,7 +606,7 @@ q {
     font-family: 'Lato', cursive;
     font-weight: 100;
     color: #9016b2;
-    font-size:65px;
+    font-size:55px;
 }
 .lead{
 	  font-size: 1em;
