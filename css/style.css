@@ -595,6 +595,13 @@ q {
 }
 
 /* Text variations*/
+.logo{
+    font-family: 'Lato', cursive;
+    font-weight: 300;
+    color: #9016b2;
+    font-size:65px;
+}
+
 .main-title{
     font-family: 'Lato', cursive;
     font-weight: 100;
