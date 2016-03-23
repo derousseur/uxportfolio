@@ -146,11 +146,11 @@ li a:hover{
 
  Header and Titles*/
 .header{
-  background: url(http://derousseur.github.io/uxportfolio/img/header.png);
+/*   background: url(http://derousseur.github.io/uxportfolio/img/header.png); */
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-bottom-style: none;
-  box-shadow: 0px 2px 7px rgba(202, 202, 202, 0.41);
+/*   box-shadow: 0px 2px 7px rgba(202, 202, 202, 0.41); */
   width: 100%;
 }
 li{
